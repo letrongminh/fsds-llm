@@ -1,0 +1,69 @@
+[
+  {
+    "original_question": "Kho Voucher là gì?",
+    "answer": "Kho Voucher trên Ứng dụng Shop là nơi lưu các Voucher/Mã giảm giá bạn được nhận/đã mua trên Shop hoặc các bên đối tác với Shop. Bạn cũng có thể tìm kiếm và lấy thêm các Mã giảm giá tại Kho Voucher",
+    "metadata": "voucher",
+    "variations": [
+      "Kho Voucher của Shop là cái gì?",
+      "Giải thích về Kho Voucher được không?",
+      "Làm ơn cho hỏi Kho Voucher nghĩa là gì?",
+      "Xin hỏi Kho Voucher có tác dụng gì?",
+      "Kho chứa Voucher trên Shop hoạt động thế nào?",
+      "Voucher được lưu trữ ở đâu trong ứng dụng?",
+      "Mình muốn biết Kho Voucher là cái gì",
+      "Chức năng của Kho Voucher là gì vậy?",
+      "Shop có chỗ lưu mã giảm giá không?",
+      "Có thể giải thích chi tiết về Kho Voucher được không?"
+    ]
+  },
+  {
+    "original_question": "Mall là gì?",
+    "answer": "Mall là những Shop đặc biệt trên Shopee, được mở bởi những thương hiệu trong nước cũng như thương hiệu quốc tế uy tín. Khi mua hàng trên các gian hàng Shopee Mall, bạn có thể tận hưởng những quyền lợi hấp dẫn: Cam kết cung cấp 100% hàng chính hãng. Có thể yêu cầu trả hàng/hoàn tiền trong vòng 15 ngày tính từ thời điểm nhận được sản phẩm. Được hỗ trợ tối đa 30K phí vận chuyển cho đơn hàng từ 150K",
+    "metadata": "mall",
+    "variations": [
+      "Shopee Mall là gì?",
+      "Mall trên Shopee có ý nghĩa như thế nào?",
+      "Làm ơn cho tôi hỏi Mall là gì vậy?",
+      "Xin hỏi Mall của Shopee có gì đặc biệt?",
+      "Giải thích về Shopee Mall được không?",
+      "Mall của Shopee khác gì so với shop thường?",
+      "Tôi muốn biết thêm về Shopee Mall",
+      "Có thể nói chi tiết về Mall trên Shopee được không?",
+      "Shop Mall là sao?",
+      "Shopee Mall hoạt động như thế nào?"
+    ]
+  },
+  {
+    "original_question": "SPayLater là gì?",
+    "answer": "SPayLater là phương thức thanh toán được cung cấp và đảm bảo bởi (các) Ngân hàng đối tác uy tín, cho phép bạn mua trước trả sau trên sàn thương mại điện tử Shopee thông qua hình thức thẻ tín dụng phi vật lý. Khi kích hoạt SPayLater thành công, bạn có thể mua sắm trong hạn mức được cấp và trả sau theo số kỳ thanh toán đã chọn, cụ thể như sau: 01, 02, 03, 06 và 12 kỳ.",
+    "metadata": "spayer",
+    "variations": [
+      "SPayLater có nghĩa là gì?",
+      "Giải thích về SPayLater",
+      "Làm ơn cho tôi hỏi SPayLater là cái gì?",
+      "Xin hỏi SPayLater là phương thức thanh toán như thế nào?",
+      "Chi tiết về dịch vụ SPayLater của Shopee",
+      "SPayLater hoạt động như thế nào?",
+      "Tôi muốn biết thêm về SPayLater",
+      "Dịch vụ trả góp SPayLater là gì?",
+      "Hình thức thanh toán SPayLater là gì?",
+      "Mình nghe nói về SPayLater, nó là gì vậy?"
+    ]
+  },
+  {
+    "original_question": "Tại sao đơn của tôi được chia thành nhiều lần giao?",
+    "answer": "Người bán có thể tách đơn hàng của bạn thành nhiều kiện hàng khác nhau (tối đa 5 kiện) vì một số lý do: các sản phẩm trong đơn hàng được vận chuyển từ nhiều kho khác nhau, đơn hàng có quá nhiều sản phẩm hoặc sản phẩm cồng kềnh, không thể vận chuyển trong một lần",
+    "metadata": "order_information",
+    "variations": [
+      "Tại sao đơn của tôi lại được giao nhiều lần?",
+      "Sao đơn hàng của tui được chia ra nhiều lần vậy?",
+      "Làm ơn cho hỏi vì sao đơn của tôi bị tách ra thành nhiều gói?",
+      "Xin hỏi vì sao đơn hàng của tôi không được giao một lần?",
+      "Tại sao shop lại gửi đơn của tôi thành nhiều kiện khác nhau?",
+      "Có lý do gì mà đơn của mình lại được chia ra nhiều lần giao?",
+      "Vì sao đơn hàng của tôi được giao từng phần?",
+      "Đơn của tôi bị chia nhỏ như vậy là chuyện gì?",
+      "Cho mình hỏi lý do tại sao đơn lại được giao nhiều lần được không?"
+    ]
+  }
+]
