@@ -2,18 +2,18 @@
   {
     "original_question": "Kho Voucher là gì?",
     "answer": "Kho Voucher trên Ứng dụng Shop là nơi lưu các Voucher/Mã giảm giá bạn được nhận/đã mua trên Shop hoặc các bên đối tác với Shop. Bạn cũng có thể tìm kiếm và lấy thêm các Mã giảm giá tại Kho Voucher",
-    "metadata": "voucher",
+    "metadata": "cancel",
     "variations": [
-      "Kho Voucher của Shop là cái gì?",
-      "Giải thích về Kho Voucher được không?",
-      "Làm ơn cho hỏi Kho Voucher nghĩa là gì?",
-      "Xin hỏi Kho Voucher có tác dụng gì?",
-      "Kho chứa Voucher trên Shop hoạt động thế nào?",
-      "Voucher được lưu trữ ở đâu trong ứng dụng?",
-      "Mình muốn biết Kho Voucher là cái gì",
-      "Chức năng của Kho Voucher là gì vậy?",
-      "Shop có chỗ lưu mã giảm giá không?",
-      "Có thể giải thích chi tiết về Kho Voucher được không?"
+      "Kho Voucher có nghĩa là gì?",
+      "Làm ơn giải thích Kho Voucher là như thế nào?",
+      "Xin hỏi Kho Voucher là gì vậy?",
+      "Kho Voucher trên Shop là cái gì?",
+      "Mục Kho Voucher dùng để làm gì?",
+      "Tôi muốn hiểu rõ về Kho Voucher",
+      "Kho chứa Voucher là gì trên ứng dụng?",
+      "Voucher được lưu trữ ở đâu vậy?",
+      "Cho em hỏi Kho Voucher là sao?",
+      "Kho chứa mã giảm giá là gì?"
     ]
   },
   {
@@ -22,15 +22,15 @@
     "metadata": "mall",
     "variations": [
       "Shopee Mall là gì?",
-      "Mall trên Shopee có ý nghĩa như thế nào?",
-      "Làm ơn cho tôi hỏi Mall là gì vậy?",
-      "Xin hỏi Mall của Shopee có gì đặc biệt?",
-      "Giải thích về Shopee Mall được không?",
-      "Mall của Shopee khác gì so với shop thường?",
+      "Mall trên Shopee có gì đặc biệt?",
+      "Làm ơn cho tôi hỏi Mall là như thế nào?",
+      "Xin hỏi Mall Shopee có điều gì khác biệt?",
+      "Giải thích về gian hàng Mall được không?",
       "Tôi muốn biết thêm về Shopee Mall",
-      "Có thể nói chi tiết về Mall trên Shopee được không?",
-      "Shop Mall là sao?",
-      "Shopee Mall hoạt động như thế nào?"
+      "Mall có nghĩa gì trên Shopee?",
+      "Điều kiện của gian hàng Mall là gì?",
+      "Sự khác nhau giữa Shop thường và Mall là gì?",
+      "Bạn có thể cho tôi biết thêm về Mall không?"
     ]
   },
   {
@@ -38,16 +38,16 @@
     "answer": "SPayLater là phương thức thanh toán được cung cấp và đảm bảo bởi (các) Ngân hàng đối tác uy tín, cho phép bạn mua trước trả sau trên sàn thương mại điện tử Shopee thông qua hình thức thẻ tín dụng phi vật lý. Khi kích hoạt SPayLater thành công, bạn có thể mua sắm trong hạn mức được cấp và trả sau theo số kỳ thanh toán đã chọn, cụ thể như sau: 01, 02, 03, 06 và 12 kỳ.",
     "metadata": "spayer",
     "variations": [
-      "SPayLater có nghĩa là gì?",
-      "Giải thích về SPayLater",
-      "Làm ơn cho tôi hỏi SPayLater là cái gì?",
+      "Giải thích về SPayLater là gì?",
+      "SPayLater có nghĩa là gì vậy?",
+      "Làm ơn cho hỏi SPayLater là cái gì?",
       "Xin hỏi SPayLater là phương thức thanh toán như thế nào?",
-      "Chi tiết về dịch vụ SPayLater của Shopee",
-      "SPayLater hoạt động như thế nào?",
-      "Tôi muốn biết thêm về SPayLater",
-      "Dịch vụ trả góp SPayLater là gì?",
-      "Hình thức thanh toán SPayLater là gì?",
-      "Mình nghe nói về SPayLater, nó là gì vậy?"
+      "Bạn có thể giải thích chi tiết về SPayLater không?",
+      "SPayLater là hình thức thanh toán gì trên Shopee?",
+      "Tôi muốn biết thêm về dịch vụ SPayLater",
+      "Dịch vụ trả góp SPayLater hoạt động ra sao?",
+      "Thế nào là SPayLater của Shopee?",
+      "Tôi nghe nói về SPayLater, nó là gì vậy?"
     ]
   },
   {
@@ -55,15 +55,16 @@
     "answer": "Người bán có thể tách đơn hàng của bạn thành nhiều kiện hàng khác nhau (tối đa 5 kiện) vì một số lý do: các sản phẩm trong đơn hàng được vận chuyển từ nhiều kho khác nhau, đơn hàng có quá nhiều sản phẩm hoặc sản phẩm cồng kềnh, không thể vận chuyển trong một lần",
     "metadata": "order_information",
     "variations": [
-      "Tại sao đơn của tôi lại được giao nhiều lần?",
-      "Sao đơn hàng của tui được chia ra nhiều lần vậy?",
-      "Làm ơn cho hỏi vì sao đơn của tôi bị tách ra thành nhiều gói?",
-      "Xin hỏi vì sao đơn hàng của tôi không được giao một lần?",
-      "Tại sao shop lại gửi đơn của tôi thành nhiều kiện khác nhau?",
-      "Có lý do gì mà đơn của mình lại được chia ra nhiều lần giao?",
-      "Vì sao đơn hàng của tôi được giao từng phần?",
-      "Đơn của tôi bị chia nhỏ như vậy là chuyện gì?",
-      "Cho mình hỏi lý do tại sao đơn lại được giao nhiều lần được không?"
+      "Tại sao đơn hàng của tôi lại được giao nhiều lần?",
+      "Sao đơn của tui bị chia nhỏ ra vậy?",
+      "Làm sao mà đơn hàng của tôi lại được giao từng phần?",
+      "Xin hỏi vì sao đơn hàng của tôi được tách ra nhiều lần giao?",
+      "Tôi muốn hiểu tại sao đơn hàng của mình không được giao một lúc?",
+      "Có lý do gì khiến đơn của tôi bị chia ra nhiều kiện vậy?",
+      "Cho em hỏi về việc đơn hàng bị giao nhiều lần được không?",
+      "Vì sao shop lại giao đơn của tôi thành nhiều lần như vậy?",
+      "Đơn hàng của tôi bị chia ra từng phần là do đâu?",
+      "Làm ơn giải thích vì sao đơn hàng lại được giao từng phần"
     ]
   }
 ]

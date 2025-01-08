@@ -35,7 +35,7 @@ class FAQEnricher:
     {{
     "original_question": "câu hỏi gốc",
     "answer": "câu trả lời gốc",
-    "category": "danh mục",
+    "metadata": "danh mục",
     "variations": [
         "biến thể 1",
         "biến thể 2",
@@ -69,7 +69,7 @@ class FAQEnricher:
         for faq in input_faq:
             try:
                 variations = self.generate_variations(
-                    faq.get("question"), faq.get("answer"), faq.get("category")
+                    faq.get("question"), faq.get("answer"), faq.get("metadata")
                 )
                 enriched_faq.append(variations)
             except Exception as e:

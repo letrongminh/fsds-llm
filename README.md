@@ -13,7 +13,7 @@ An AI-powered chatbot for managing Gundam store orders, built with LangChain, PG
 
 ## Prerequisites
 
-- Python 3.9+
+- Python 3.12+
 - Docker and Docker Compose
 - PostgreSQL
 - AWS Account with Bedrock access
@@ -23,71 +23,36 @@ An AI-powered chatbot for managing Gundam store orders, built with LangChain, PG
 1. **Clone the repository**
 ```bash
 git clone <repository-url>
-cd ai-agents-cs
+cd fsds-llm
 ```
 
-2. **Create and activate virtual environment**
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# For Windows
-venv\Scripts\activate
-# For macOS/Linux
-source venv/bin/activate
-```
+2. **Install uv for python manage package**
+Install uv following the instruction from [uv](https://docs.astral.sh/uv/getting-started/installation/)
 
 3. **Install dependencies**
+Run `uv sync` it will automatically install all the dependencies and create a virtual environment
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
 
-4. **Set up environment variables**
-Create a `.env` file in the root directory:
-```env
-AWS_ACCESS_KEY_ID=your_aws_access_key
-AWS_SECRET_ACCESS_KEY=your_aws_secret_key
-AWS_DEFAULT_REGION=ap-northeast-1
-```
+4. **Set up PostgreSQL**
+Move to the `src/vectordb` directory and run `docker-compose up -d` to start the PostgreSQL and PGVector database
+Then move to utils directory, in faq folder, run `uv run enrich_faq.py` with faq.json path as argument (if you want to modify the faq.json, you can do it in the file or base on the schema in the file)
+Then run `uv run add_document_to_pgvector.py` to add the enriched faq to the database
+Then move to database folder, run `uv run orders_insert.py` to create sample orders in the database
 
-## Database Setup
+5. **AWS Configure**
+If you not have AWS ClI install, following this link [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+Then run `aws configure` and input your AWS credentials
+Remember to set the region to `ap-northeast-1` (Tokyo)
 
-1. **Start PostgreSQL and PGVector database**
-```bash
-cd src/vectordb
-docker-compose up -d
-```
+6. **Run the application**
+Run `streamlit run main.py` to start the application
 
-2. **Initialize the database**
-```bash
-# Wait for a few seconds for the database to be ready
-psql -h localhost -U postgres -d postgres -f init.sql
-```
-
-3. **Load FAQ data**
-```bash
-# Add FAQ documents to vector database
-python src/utils/faq/add_document_to_pgvector.py
-```
-
-4. **Create sample orders (optional)**
-```bash
-# Create sample orders in the database
-python src/utils/database/orders_insert.py
-```
-
-## Running the Application
-
-1. **Start the Streamlit application**
-```bash
-streamlit run ui/bot_ui.py
-```
-
-2. **Access the application**
+7. **Access the application**
 Open your browser and navigate to:
 ```
-http://localhost:8501
+http://localhost:8501/
 ```
 
 ## Usage
@@ -103,16 +68,16 @@ http://localhost:8501
    - Only pending orders can be cancelled
 
 3. **FAQ**
-   - Ask general questions about products and policies
+   - Ask general questions about faq
    - Get instant answers from the knowledge base
 
 ## Project Structure
 
 ```
-ai-agents-cs/
+fsds-llm/
 ├── src/
 │   ├── core/
-│   │   ├── agents.py         # Main agent logic
+│   │   ├── bedrock_client.py         # Client for bedrock runtime
 │   │   ├── tools.py          # Tool implementations
 │   │   ├── embedding.py      # Embedding utilities
 │   │   └── pgvector.py       # Vector database client

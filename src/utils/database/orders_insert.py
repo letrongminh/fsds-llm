@@ -34,7 +34,7 @@ GUNDAM_ITEMS = [
     {
         "model": "Gundam Barbatos",
         "grade": "Master Grade",
-        "base_price": 55.00,
+        "base_price": 55.00, 
         "scale": "1/100",
     },
     {"model": "Sazabi", "grade": "Real Grade", "base_price": 50.00, "scale": "1/144"},
@@ -209,7 +209,10 @@ class PGOrders:
           customer_email VARCHAR(100) NOT NULL,
           status VARCHAR(20) NOT NULL,
           created_at TIMESTAMP NOT NULL,
-          updated_at TIMESTAMP NOT NULL)
+          updated_at TIMESTAMP NOT NULL);
+          CREATE INDEX idx_orders_email ON orders(customer_email);
+        CREATE INDEX idx_orders_status ON orders(status);
+        CREATE INDEX idx_orders_created_at ON orders(created_at DESC);
         """
                 )
                 conn.commit()
