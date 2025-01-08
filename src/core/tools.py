@@ -25,7 +25,7 @@ class OrderCancelInput(BaseModel):
 
 class IntentResponse(BaseModel):
     """Response model for intent classification"""
-    intent: Literal["CHECK_ORDERS", "CANCEL_ORDER", "FAQ"]
+    intent: Literal["CHECK_ORDERS", "CANCEL_ORDER", "FAQ", "CHAT"]
     confidence: float
     email: Optional[str] = None
     order_id: Optional[str] = None
@@ -213,7 +213,8 @@ class OrderQuerySystem:
             "order_id": self._create_order_id_chain(),
             "response": self._create_response_chain(),
             "conversation": self._create_conversation_chain(),
-            "response_formatter": self._create_response_formatter_chain()
+            "response_formatter": self._create_response_formatter_chain(),
+            "chat": self._create_chat_chain()
         }
 
     def _create_intent_chain(self):
@@ -229,12 +230,13 @@ class OrderQuerySystem:
             1. CHECK_ORDERS: User wants to view their order history or status
             2. CANCEL_ORDER: User wants to cancel an order
             3. FAQ: General questions about products, policies, etc.
+            4. CHAT: General conversation or Gundam-related discussion
             
             Also extract email and order ID if present.
             
             Respond in JSON format with these exact fields:
             {{
-                "intent": "CHECK_ORDERS" | "CANCEL_ORDER" | "FAQ",
+                "intent": "CHECK_ORDERS" | "CANCEL_ORDER" | "FAQ" | "CHAT",
                 "confidence": <float between 0 and 1>,
                 "email": "<email if found, null if not>",
                 "order_id": "<order id if found, null if not>"
@@ -244,6 +246,7 @@ class OrderQuerySystem:
             - "I want to cancel order #123" -> {{"intent": "CANCEL_ORDER", "confidence": 0.95, "email": null, "order_id": "123"}}
             - "Show my orders for test@email.com" -> {{"intent": "CHECK_ORDERS", "confidence": 0.9, "email": "test@email.com", "order_id": null}}
             - "What's your return policy?" -> {{"intent": "FAQ", "confidence": 0.8, "email": null, "order_id": null}}
+            - "What do you think about the RX-78-2?" -> {{"intent": "CHAT", "confidence": 0.85, "email": null, "order_id": null}}
             """),
             ("human", "{input}")
         ]) | self.llm | StrOutputParser()
@@ -343,6 +346,36 @@ class OrderQuerySystem:
         ])
         return self._create_chain_with_streaming(prompt)
 
+    def _create_chat_chain(self):
+        """Create chain for general chatting"""
+        return ChatPromptTemplate.from_messages([
+            ("system", """You are a friendly Gundam store assistant who loves to chat about Gundam.
+            Consider the conversation history for context:
+            {history}
+            
+            Guidelines for chatting:
+            - Be friendly and enthusiastic about Gundam
+            - Share interesting facts about Gundam models when relevant
+            - Stay in character as a Gundam store assistant
+            - If the conversation moves towards orders, guide them to the order-related features
+            - Keep responses concise but engaging
+            - Match the user's language and tone
+            - You can discuss:
+              * Different Gundam series and models
+              * Basic Gundam lore and history
+              * Gundam building tips
+              * Popular Gundam models
+              * General Gundam-related topics
+            
+            Remember:
+            - Keep the conversation Gundam-focused
+            - Be helpful but maintain professional boundaries
+            - If unsure, guide back to store-related topics
+            - Following the language of the message, respond in the same language.
+            """),
+            ("human", "{input}")
+        ]) | self.llm
+
     async def _format_response_stream(self, message: str, history: str):
         """Format response using LLM with streaming"""
         try:
@@ -385,8 +418,14 @@ class OrderQuerySystem:
                 response = await self._handle_cancellation(user_input, history, intent_result)
             elif intent_result["intent"] == "CHECK_ORDERS":
                 response = self._handle_order_lookup(user_input, history, intent_result)
+            elif intent_result["intent"] == "CHAT":
+                # Handle chat intent
+                response = self.chains["chat"].invoke({
+                    "input": user_input,
+                    "history": history
+                }).content
             else:
-                response = "I understand you have a general question. However, I'm currently configured to help with order-related queries only. Please ask about checking or cancelling orders."
+                response = "I understand you have a general question. However, I'm currently configured to help with order-related queries and chat about Gundam. Feel free to ask about orders or discuss Gundam with me!"
 
             # Stream formatted response
             async for chunk in self._format_response_stream(response, history):

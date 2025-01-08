@@ -14,5 +14,6 @@ dependencies = [
     "langgraph>=0.2.60",
     "psycopg>=3.2.3",
     "pydantic[email]>=2.10.4",
+    "ragas>=0.2.9",
     "streamlit>=1.41.1",
 ]
