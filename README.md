@@ -36,15 +36,15 @@ uv sync
 ```
 
 4. **Set up PostgreSQL**
-Move to the `src/vectordb` directory and run `docker-compose up -d` to start the PostgreSQL and PGVector database
-Then move to utils directory, in faq folder, run `uv run enrich_faq.py` with faq.json path as argument (if you want to modify the faq.json, you can do it in the file or base on the schema in the file)
-Then run `uv run add_document_to_pgvector.py` to add the enriched faq to the database
-Then move to database folder, run `uv run orders_insert.py` to create sample orders in the database
+- Move to the `src/vectordb` directory and run `docker-compose up -d` to start the PostgreSQL and PGVector database
+- Then move to utils directory, in faq folder, run `uv run enrich_faq.py` with faq.json path as argument (if you want to modify the faq.json, you can do it in the file or base on the schema in the file)
+- Then run `uv run add_document_to_pgvector.py` to add the enriched faq to the database
+- Then move to database folder, run `uv run orders_insert.py` to create sample orders in the database
 
 5. **AWS Configure**
-If you not have AWS ClI install, following this link [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-Then run `aws configure` and input your AWS credentials
-Remember to set the region to `ap-northeast-1` (Tokyo)
+- If you not have AWS ClI install, following this link [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- Then run `aws configure` and input your AWS credentials
+- Remember to set the region to `ap-northeast-1` (Tokyo)
 
 6. **Run the application**
 Run `streamlit run main.py` to start the application
