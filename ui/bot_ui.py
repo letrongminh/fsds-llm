@@ -43,7 +43,7 @@ class ChatBot:
 
             # Search similar questions
             results = self.vector_db.similarity_search(
-                query_embedding=query_embeddings[0], k=1, similarity_threshold=0.8
+                query_embedding=query_embeddings[0], k=3, similarity_threshold=0.7
             )
 
             if results:
@@ -61,8 +61,8 @@ class ChatBot:
         try:
             # First check FAQ
             faq_response = self.get_faq_response(user_input)
-
-            if faq_response["found"] and faq_response["similarity"] > 0.8:
+            #
+            if faq_response["found"] and faq_response["similarity"] > 0.7:
                 yield faq_response["answer"]
                 return
 

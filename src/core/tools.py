@@ -217,6 +217,7 @@ class OrderQuerySystem:
             "chat": self._create_chat_chain()
         }
 
+
     def _create_intent_chain(self):
         """Create chain for intent classification"""
         return ChatPromptTemplate.from_messages([
