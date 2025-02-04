@@ -1,6 +1,6 @@
+
 from typing import List, Dict, Optional, Deque, Literal
 from collections import deque
-from langchain_aws import ChatBedrock
 from langchain.prompts import ChatPromptTemplate
 from langchain.tools import StructuredTool
 import psycopg
@@ -10,6 +10,9 @@ from datetime import datetime
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 import asyncio
+
+# Import OpenAIClient
+from src.core.openai_client import OpenAIClient
 
 
 class OrderLookupInput(BaseModel):
@@ -86,7 +89,7 @@ def cancel_order(input_data: OrderCancelInput) -> Dict:
                 cur.execute(
                     """
                     SELECT status
-                    FROM orders 
+                    FROM orders
                     WHERE customer_email = %s AND order_id = %s
                     """,
                     (input_data.email, input_data.order_id),
@@ -109,7 +112,7 @@ def cancel_order(input_data: OrderCancelInput) -> Dict:
                 # Update order status to cancelled
                 cur.execute(
                     """
-                    UPDATE orders 
+                    UPDATE orders
                     SET status = 'cancelled',
                         updated_at = %s
                     WHERE customer_email = %s AND order_id = %s
@@ -172,19 +175,22 @@ class ConversationMemory:
         """Clear conversation history"""
         self.messages.clear()
 
+from dotenv import load_dotenv
+import os
+load_dotenv()  # Tải biến môi trường từ file .env
+api_key = os.getenv("OPENAI_API_KEY")
 
 class OrderQuerySystem:
-    def __init__(self):
-        self.llm = ChatBedrock(
-            model_id="anthropic.claude-3-5-sonnet-20240620-v1:0",
-            region="ap-northeast-1",
-            temperature=0,
-            streaming=True
+    def __init__(self, api_key: str = os.getenv("OPENAI_API_KEY"), openai_model_id: str = "gpt-4o-mini"):
+        # Initialize OpenAIClient instead of ChatBedrock
+        self.llm = OpenAIClient(
+            api_key=api_key,
+            model_id=openai_model_id,
         )
-        
+
         # Initialize memory
         self.memory = ConversationMemory(max_messages=3)
-        
+
         # Create tools
         self._setup_tools()
         # Create chains
@@ -223,18 +229,18 @@ class OrderQuerySystem:
         return ChatPromptTemplate.from_messages([
             ("system", """You are an intent classifier for a Gundam store assistant.
             Analyze the user's message and determine their intent.
-            
+
             Consider the conversation history for context:
             {history}
-            
+
             Classify the intent into one of these categories:
             1. CHECK_ORDERS: User wants to view their order history or status
             2. CANCEL_ORDER: User wants to cancel an order
             3. FAQ: General questions about products, policies, etc.
             4. CHAT: General conversation or Gundam-related discussion
-            
+
             Also extract email and order ID if present.
-            
+
             Respond in JSON format with these exact fields:
             {{
                 "intent": "CHECK_ORDERS" | "CANCEL_ORDER" | "FAQ" | "CHAT",
@@ -242,7 +248,7 @@ class OrderQuerySystem:
                 "email": "<email if found, null if not>",
                 "order_id": "<order id if found, null if not>"
             }}
-            
+
             Examples:
             - "I want to cancel order #123" -> {{"intent": "CANCEL_ORDER", "confidence": 0.95, "email": null, "order_id": "123"}}
             - "Show my orders for test@email.com" -> {{"intent": "CHECK_ORDERS", "confidence": 0.9, "email": "test@email.com", "order_id": null}}
@@ -258,12 +264,12 @@ class OrderQuerySystem:
             ("system", """Extract an email address from the message if present.
             Consider the conversation history for context:
             {history}
-            
+
             If you find an email, respond with just the email address.
             If no email is found, respond with 'None'.
             Following the language of the message, respond in the same language."""),
             ("human", "{input}")
-        ]) | self.llm
+        ]) | self.llm | StrOutputParser() # Added StrOutputParser
 
     def _create_order_id_chain(self):
         """Create chain for order ID extraction"""
@@ -271,17 +277,17 @@ class OrderQuerySystem:
             ("system", """Extract the order ID from the message if present.
             Consider the conversation history for context:
             {history}
-            
+
             Look for patterns like:
             - Order numbers (e.g., ORD-123, #123)
             - Direct mentions of order IDs
             - References to specific orders
-            
+
             If found, return just the order ID.
             If not found, return 'None'.
             Following the language of the message, respond in the same language."""),
             ("human", "{input}")
-        ]) | self.llm
+        ]) | self.llm | StrOutputParser() # Added StrOutputParser
 
     def _create_response_chain(self):
         """Create chain for formatting order lookup responses"""
@@ -294,14 +300,14 @@ class OrderQuerySystem:
             - Total price
             - Key items
             - Order date
-            
+
             Consider the conversation history for context:
             {history}
-            
+
             Be concise but friendly.
             Following the language of the message, respond in the same language."""),
             ("human", "Here are the orders: {orders}")
-        ]) | self.llm
+        ]) | self.llm | StrOutputParser() # Added StrOutputParser
 
     def _create_conversation_chain(self):
         """Create chain for general conversation"""
@@ -309,14 +315,14 @@ class OrderQuerySystem:
             ("system", """You are a helpful Gundam store assistant.
             Consider the conversation history for context:
             {history}
-            
+
             - If asking for email, be polite and clear
             - If user seems confused, explain how you can help
             - Keep responses friendly but professional
             - Focus on order-related queries
             Following the language of the message, respond in the same language."""),
             ("human", "{input}")
-        ]) | self.llm
+        ]) | self.llm | StrOutputParser() # Added StrOutputParser
 
     def _create_chain_with_streaming(self, prompt):
         """Create a chain that supports streaming"""
@@ -333,10 +339,10 @@ class OrderQuerySystem:
             ("system", """You are a helpful Gundam store assistant.
             Format the given message in a natural, conversational way.
             Keep the same meaning but make it sound more friendly and natural.
-            
+
             Consider the conversation history for context:
             {history}
-            
+
             Important:
             - Maintain the same language as the user's query
             - Keep the key information intact
@@ -353,7 +359,7 @@ class OrderQuerySystem:
             ("system", """You are a friendly Gundam store assistant who loves to chat about Gundam.
             Consider the conversation history for context:
             {history}
-            
+
             Guidelines for chatting:
             - Be friendly and enthusiastic about Gundam
             - Share interesting facts about Gundam models when relevant
@@ -367,7 +373,7 @@ class OrderQuerySystem:
               * Gundam building tips
               * Popular Gundam models
               * General Gundam-related topics
-            
+
             Remember:
             - Keep the conversation Gundam-focused
             - Be helpful but maintain professional boundaries
@@ -375,16 +381,19 @@ class OrderQuerySystem:
             - Following the language of the message, respond in the same language.
             """),
             ("human", "{input}")
-        ]) | self.llm
+        ]) | self.llm | StrOutputParser() # Added StrOutputParser
 
     async def _format_response_stream(self, message: str, history: str):
         """Format response using LLM with streaming"""
         try:
-            async for chunk in self.chains["response_formatter"].astream({
+            # OpenAI client does not natively support streaming in this setup.
+            # We will just invoke and return the full response for now.
+            response = self.chains["response_formatter"].invoke({
                 "message": message,
                 "history": history
-            }):
-                yield chunk
+            })
+            yield response
+
         except Exception as e:
             print(f"Error formatting response: {str(e)}")
             yield message
@@ -407,13 +416,13 @@ class OrderQuerySystem:
             # Add user message to memory
             self.memory.add_message("user", user_input)
             history = self.memory.get_context_string()
-            
+
             # Determine intent
             intent_result = json.loads(self.chains["intent"].invoke({
                 "input": user_input,
                 "history": history
             }))
-            
+
             # Route to appropriate handler based on intent
             if intent_result["intent"] == "CANCEL_ORDER":
                 response = await self._handle_cancellation(user_input, history, intent_result)
@@ -424,14 +433,14 @@ class OrderQuerySystem:
                 response = self.chains["chat"].invoke({
                     "input": user_input,
                     "history": history
-                }).content
+                })
             else:
                 response = "I understand you have a general question. However, I'm currently configured to help with order-related queries and chat about Gundam. Feel free to ask about orders or discuss Gundam with me!"
 
             # Stream formatted response
             async for chunk in self._format_response_stream(response, history):
                 yield chunk
-                
+
             # Save complete response to memory
             self.memory.add_message("assistant", response)
 
@@ -451,7 +460,7 @@ class OrderQuerySystem:
             email_result = self.chains["email"].invoke({
                 "input": user_input,
                 "history": history
-            }).content.strip()
+            })
             if email_result.lower() != 'none':
                 email = email_result
 
@@ -460,7 +469,7 @@ class OrderQuerySystem:
             order_id_result = self.chains["order_id"].invoke({
                 "input": user_input,
                 "history": history
-            }).content.strip()
+            })
             if order_id_result.lower() != 'none':
                 order_id = order_id_result
 
@@ -488,12 +497,12 @@ class OrderQuerySystem:
     def _handle_order_lookup(self, user_input: str, history: str, intent_result: Dict) -> str:
         """Handle order lookup flow"""
         email = intent_result.get("email")
-        
+
         if not email:
             email_result = self.chains["email"].invoke({
                 "input": user_input,
                 "history": history
-            }).content.strip()
+            })
             if email_result.lower() != 'none':
                 email = email_result
 
@@ -504,11 +513,11 @@ class OrderQuerySystem:
             orders = self.tools[0].invoke(email)
             if not orders:
                 return f"I couldn't find any orders associated with {email}. Please verify your email address."
-            
+
             base_response = self.chains["response"].invoke({
                 "orders": json.dumps(orders),
                 "history": history
-            }).content
+            })
             return base_response
         except Exception as e:
             print(f"Order lookup error: {str(e)}")

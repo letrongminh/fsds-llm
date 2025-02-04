@@ -23,7 +23,7 @@ class PGVector:
           question TEXT NOT NULL,
           answer TEXT NOT NULL,
           metadata JSONB,
-          embedding vector(1024),
+          embedding vector(1536),
           created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP)
         """
                 )

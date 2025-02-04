@@ -2,11 +2,17 @@ import json
 import logging
 import sys
 import os
+from dotenv import load_dotenv
+from pathlib import Path
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Get the project root directory
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
+sys.path.append(str(PROJECT_ROOT))
 
 from src.core.pgvector import PGVector
 from src.core.embedding import EmbeddingClient
+
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -14,10 +20,12 @@ logger = logging.getLogger(__name__)
 
 class FAQVectorSearch:
     def __init__(self):
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError("OPENAI_API_KEY environment variable is not set")
+            
         self.pgvector = PGVector()
-        self.embedding_client = EmbeddingClient(
-            embedding_model_id="cohere.embed-multilingual-v3"
-        )
+        self.embedding_client = EmbeddingClient(api_key=api_key)
 
     def load_and_add_documents(self, json_path: str):
         try:
@@ -27,7 +35,6 @@ class FAQVectorSearch:
             logger.info(f"Loaded {len(faq_data)} documents from {json_path}")
             for doc in faq_data:
                 all_questions = doc.get("variations", [])
-
                 embeddings = self.embedding_client.embed_documents(all_questions)
 
                 if not embeddings:

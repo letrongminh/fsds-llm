@@ -8,6 +8,12 @@ import asyncio
 from contextlib import contextmanager
 
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Tải biến môi trường từ file .env
+api_key = os.getenv("OPENAI_API_KEY")
+
 class ChatBot:
     def __init__(self):
         # Initialize resources
@@ -23,7 +29,7 @@ class ChatBot:
             st.session_state.resources = {
                 "order_system": OrderQuerySystem(),
                 "vector_db": PGVector(),
-                "embedding_client": EmbeddingClient(),
+                "embedding_client": EmbeddingClient(api_key=api_key),
             }
 
         self.order_system = st.session_state.resources["order_system"]
@@ -77,7 +83,7 @@ class ChatBot:
     def display_chat(self):
         """Display chat interface"""
         # Chat header
-        st.title("Gundam Store Assistant")
+        st.title("Store Assistant")
         st.write("Ask about your orders or any questions about our products!")
 
         # Display chat messages

@@ -141,7 +141,9 @@ langchain-core==0.3.29
     #   langgraph-checkpoint
     #   ragas
 langchain-openai==0.2.14
-    # via ragas
+    # via
+    #   ai-agents-cs (pyproject.toml)
+    #   ragas
 langchain-text-splitters==0.3.5
     # via langchain
 langdetect==1.0.9
@@ -193,6 +195,7 @@ numpy==2.2.1
     #   streamlit
 openai==1.59.4
     # via
+    #   ai-agents-cs (pyproject.toml)
     #   langchain-openai
     #   ragas
 orjson==3.10.13
@@ -226,6 +229,8 @@ protobuf==5.29.2
     # via streamlit
 psycopg==3.2.3
     # via ai-agents-cs (pyproject.toml)
+psycopg-binary==3.2.3
+    # via psycopg
 pyarrow==18.1.0
     # via
     #   datasets
@@ -255,7 +260,9 @@ python-dateutil==2.9.0.post0
     #   botocore
     #   pandas
 python-dotenv==1.0.1
-    # via pydantic-settings
+    # via
+    #   ai-agents-cs (pyproject.toml)
+    #   pydantic-settings
 pytz==2024.2
     # via pandas
 pyyaml==6.0.2
@@ -331,11 +338,9 @@ tqdm==4.67.1
 typing-extensions==4.12.2
     # via
     #   altair
-    #   anyio
     #   huggingface-hub
     #   langchain-core
     #   openai
-    #   psycopg
     #   pydantic
     #   pydantic-core
     #   sqlalchemy

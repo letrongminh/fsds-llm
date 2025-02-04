@@ -1,66 +1,61 @@
-import boto3
+import os
 import json
 from typing import List, Dict
-
+from openai import OpenAI
 
 class FAQEnricher:
-    def __init__(self, region_name: str = "us-east-1"):
-        self.client = boto3.client(
-            service_name="bedrock-runtime", region_name=region_name
-        )
-        self.model_id = "us.anthropic.claude-3-5-haiku-20241022-v1:0"
+    def __init__(self, model: str = "gpt-4o-mini"):
+        self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        self.model = model
 
     def generate_variations(self, question: str, answer: str, category: str) -> Dict:
-        """Generate variations of a question using Claude"""
-        prompt = f"""Given this FAQ:
-    Question: {question}
-    Answer: {answer}
-    Category: {category}
+        """Generate variations of a question using ChatGPT"""
+        prompt = f"""Hãy tạo các biến thể câu hỏi tiếng Việt cho FAQ sau:
+Câu hỏi gốc: {question}
+Câu trả lời: {answer}
+Danh mục: {category}
 
-    Generate an enriched set of alternative questions in Vietnamese that mean the same thing. The questions should:
-    1. Include different ways Vietnamese users might naturally ask this question
-    2. Cover formal ways of asking (using "làm ơn cho hỏi", "xin hỏi", etc.)
-    3. Include common Vietnamese synonyms and phrasings
-    4. Match Vietnamese communication styles and cultural context
-    5. Maintain exactly the same meaning as the original question
+Yêu cầu:
+1. Tạo các cách hỏi tự nhiên khác nhau mà người dùng Việt có thể sử dụng
+2. Bao gồm cách hỏi trang trọng (dùng "làm ơn cho hỏi", "xin hỏi"...)
+3. Sử dụng từ đồng nghĩa và cách diễn đạt phổ biến trong tiếng Việt
+4. Phù hợp với văn hóa và phong cách giao tiếp của người Việt
+5. Giữ nguyên hoàn toàn ý nghĩa so với câu hỏi gốc
 
-    The variations should consider:
-    - Formal business language (using respectful forms)
-    - Common online chat style
-    - Short direct questions
-    - Natural conversational Vietnamese
-    - Regional variations (if appropriate)
+Các biến thể cần xem xét:
+- Ngôn ngữ trang trọng trong kinh doanh
+- Phong cách chat trực tuyến thông thường
+- Câu hỏi ngắn gọn trực tiếp
+- Cách nói chuyện tự nhiên
+- Khác biệt vùng miền (nếu phù hợp)
 
-    Return the result as a JSON object with this exact format:
-    {{
+Trả về JSON theo định dạng sau:
+{{
     "original_question": "câu hỏi gốc",
-    "answer": "câu trả lời gốc",
+    "answer": "câu trả lời gốc", 
     "metadata": "danh mục",
     "variations": [
         "biến thể 1",
         "biến thể 2",
-        etc...
+        ...
     ]
-    }}
+}}
 
-    Return ONLY the JSON object, no other text or comments."""
+Chỉ trả về JSON, không thêm bất kỳ nội dung nào khác."""
 
-        response = self.client.invoke_model(
-            modelId=self.model_id,
-            body=json.dumps(
-                {
-                    "anthropic_version": "bedrock-2023-05-31",
-                    "max_tokens": 1000,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "temperature": 0.7,
-                }
-            ),
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=[
+                {"role": "system", "content": "Bạn là trợ lý chuyên tạo biến thể câu hỏi tiếng Việt."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.7,
+            max_tokens=1000
         )
 
-        response_body = json.loads(response.get("body").read())
-        enriched_faq = json.loads(response_body["content"][0]["text"])
-
-        return enriched_faq
+        # Parse response
+        response_text = response.choices[0].message.content
+        return json.loads(response_text)
 
     def enrich_faq(self, input_faq: List[Dict]) -> List[Dict]:
         """Enrich a list of FAQ with variations"""
@@ -69,7 +64,9 @@ class FAQEnricher:
         for faq in input_faq:
             try:
                 variations = self.generate_variations(
-                    faq.get("question"), faq.get("answer"), faq.get("metadata")
+                    faq.get("question"), 
+                    faq.get("answer"), 
+                    faq.get("metadata")
                 )
                 enriched_faq.append(variations)
             except Exception as e:
@@ -77,6 +74,7 @@ class FAQEnricher:
                 continue
 
         return enriched_faq
+
 
 
 def main():
