@@ -18,7 +18,206 @@
     "question": "Tại sao đơn của tôi được chia thành nhiều lần giao?",
     "answer": "Người bán có thể tách đơn hàng của bạn thành nhiều kiện hàng khác nhau (tối đa 5 kiện) vì một số lý do: các sản phẩm trong đơn hàng được vận chuyển từ nhiều kho khác nhau, đơn hàng có quá nhiều sản phẩm hoặc sản phẩm cồng kềnh, không thể vận chuyển trong một lần",
     "metadata": "order_information"
+  },
+
+  {
+    "question": "Các loại Gundam phổ biến nhất hiện nay là gì?",
+    "answer": "Các dòng Gundam phổ biến bao gồm High Grade (HG), Real Grade (RG), Master Grade (MG), Perfect Grade (PG) và gần đây là Entry Grade (EG). Mỗi dòng có độ chi tiết, kích thước và độ khó lắp ráp khác nhau, phù hợp với nhiều đối tượng người chơi.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "Sự khác biệt giữa HG, RG, MG và PG Gundam là gì?",
+    "answer": "HG (High Grade) thường là dòng cơ bản, dễ lắp ráp và giá cả phải chăng. RG (Real Grade) tập trung vào chi tiết và tỷ lệ thực tế trong kích thước nhỏ gọn. MG (Master Grade) có độ chi tiết cao, khung xương bên trong phức tạp và kích thước lớn hơn. PG (Perfect Grade) là dòng cao cấp nhất, với độ chi tiết cực cao, nhiều tính năng và kích thước lớn nhất.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "Tôi nên bắt đầu chơi Gundam từ dòng nào?",
+    "answer": "Đối với người mới bắt đầu, dòng Entry Grade (EG) hoặc High Grade (HG) là lựa chọn tốt nhất vì chúng dễ lắp ráp, ít chi tiết phức tạp và giá cả phải chăng. Sau khi quen thuộc, bạn có thể thử sức với các dòng cao cấp hơn như RG, MG hoặc PG.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "Cửa hàng có bán dụng cụ lắp ráp Gundam không?",
+    "answer": "Có, cửa hàng cung cấp đầy đủ các dụng cụ cần thiết cho việc lắp ráp Gundam như kìm cắt, dao rọc, nhíp, bút kẻ line, sơn và các phụ kiện khác. Bạn có thể tìm thấy chúng tại khu vực dụng cụ của cửa hàng hoặc trên website.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "Tôi có thể đặt hàng Gundam online và nhận tại cửa hàng không?",
+    "answer": "Có, cửa hàng hỗ trợ dịch vụ đặt hàng online và nhận tại cửa hàng. Bạn có thể đặt hàng trên website hoặc ứng dụng của cửa hàng và chọn nhận hàng tại cửa hàng gần nhất để tiết kiệm phí vận chuyển.",
+    "metadata": "order_information"
+  },
+  {
+    "question": "Thời gian giao hàng trung bình là bao lâu?",
+    "answer": "Thời gian giao hàng trung bình phụ thuộc vào địa chỉ nhận hàng và phương thức vận chuyển bạn chọn. Đối với khu vực nội thành, thời gian giao hàng thường từ 1-2 ngày làm việc. Đối với các khu vực khác, thời gian có thể từ 3-5 ngày làm việc.",
+    "metadata": "shipping"
+  },
+  {
+    "question": "Phí vận chuyển được tính như thế nào?",
+    "answer": "Phí vận chuyển được tính dựa trên khối lượng đơn hàng, địa chỉ nhận hàng và phương thức vận chuyển bạn chọn. Bạn có thể xem chi tiết phí vận chuyển khi tiến hành đặt hàng trên website hoặc ứng dụng của cửa hàng.",
+    "metadata": "shipping"
+  },
+  {
+    "question": "Cửa hàng có chương trình khuyến mãi hoặc giảm giá không?",
+    "answer": "Cửa hàng thường xuyên có các chương trình khuyến mãi, giảm giá đặc biệt vào các dịp lễ, Tết hoặc sự kiện đặc biệt. Bạn có thể theo dõi website, fanpage hoặc đăng ký email để nhận thông tin khuyến mãi mới nhất.",
+    "metadata": "promotion"
+  },
+  {
+    "question": "Tôi có thể thanh toán bằng những hình thức nào?",
+    "answer": "Cửa hàng chấp nhận nhiều hình thức thanh toán khác nhau bao gồm tiền mặt, thẻ ngân hàng, chuyển khoản ngân hàng, ví điện tử và các hình thức thanh toán trực tuyến khác được hỗ trợ trên website và ứng dụng.",
+    "metadata": "payment"
+  },
+  {
+    "question": "Chính sách đổi trả hàng của cửa hàng như thế nào?",
+    "answer": "Cửa hàng hỗ trợ đổi trả hàng trong vòng 7 ngày kể từ ngày nhận hàng nếu sản phẩm còn nguyên vẹn, chưa qua sử dụng và có lỗi từ nhà sản xuất. Vui lòng liên hệ bộ phận hỗ trợ khách hàng để được hướng dẫn chi tiết về quy trình đổi trả.",
+    "metadata": "returns"
+  },
+  {
+    "question": "Tôi có thể trả lại hàng nếu không thích sản phẩm không?",
+    "answer": "Chính sách đổi trả của cửa hàng tập trung vào các sản phẩm bị lỗi hoặc không đúng với mô tả. Trong trường hợp bạn không thích sản phẩm vì lý do cá nhân, vui lòng liên hệ bộ phận hỗ trợ khách hàng để được xem xét và hỗ trợ tùy theo từng trường hợp cụ thể.",
+    "metadata": "returns"
+  },
+  {
+    "question": "Làm thế nào để liên hệ với bộ phận hỗ trợ khách hàng?",
+    "answer": "Bạn có thể liên hệ với bộ phận hỗ trợ khách hàng qua số điện thoại hotline, email hoặc chat trực tuyến trên website và ứng dụng của cửa hàng. Thông tin liên hệ chi tiết được hiển thị ở cuối trang website và trong mục 'Liên hệ' của ứng dụng.",
+    "metadata": "contact"
+  },
+  {
+    "question": "Cửa hàng có nhận đặt hàng trước (pre-order) các mẫu Gundam mới ra không?",
+    "answer": "Có, cửa hàng thường xuyên nhận đặt hàng trước các mẫu Gundam mới ra mắt. Thông tin về các mẫu pre-order sẽ được cập nhật trên website và fanpage của cửa hàng. Việc đặt hàng trước giúp bạn đảm bảo có được mẫu Gundam mong muốn ngay khi hàng về.",
+    "metadata": "preorder"
+  },
+  {
+    "question": "Làm thế nào để biết khi nào một mẫu Gundam hết hàng sẽ được restock?",
+    "answer": "Thông tin về việc restock các mẫu Gundam hết hàng thường được cập nhật trên website và fanpage của cửa hàng. Bạn có thể theo dõi các kênh này hoặc liên hệ trực tiếp bộ phận hỗ trợ khách hàng để hỏi về tình trạng restock của một mẫu cụ thể.",
+    "metadata": "restock"
+  },
+  {
+    "question": "Cửa hàng có tổ chức workshop hoặc sự kiện liên quan đến Gundam không?",
+    "answer": "Cửa hàng có thể tổ chức các workshop hướng dẫn lắp ráp Gundam, cuộc thi độ Gundam hoặc các sự kiện gặp gỡ cộng đồng người chơi Gundam. Thông tin về các sự kiện này sẽ được thông báo trên website và fanpage của cửa hàng.",
+    "metadata": "event"
+  },
+  {
+    "question": "Tôi có thể tìm thấy bảng màu và hướng dẫn sơn Gundam ở đâu?",
+    "answer": "Thông tin về bảng màu và hướng dẫn sơn Gundam thường có thể tìm thấy trên internet, các diễn đàn và cộng đồng yêu thích Gundam. Ngoài ra, cửa hàng có thể cung cấp một số tài liệu tham khảo hoặc tư vấn trực tiếp tại cửa hàng.",
+    "metadata": "assembly"
+  },
+  {
+    "question": "Cửa hàng có bán Gundam đã lắp ráp sẵn không?",
+    "answer": "Cửa hàng chủ yếu bán Gundam dạng kit (mô hình chưa lắp ráp) để khách hàng tự trải nghiệm quá trình lắp ráp. Tuy nhiên, trong một số trường hợp đặc biệt, cửa hàng có thể có các mẫu trưng bày đã được lắp ráp sẵn.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "Kích thước của các hộp Gundam khác nhau như thế nào?",
+    "answer": "Kích thước hộp Gundam khác nhau tùy thuộc vào dòng và mẫu cụ thể. Các dòng HG thường có hộp nhỏ gọn, trong khi MG và PG có hộp lớn hơn đáng kể. Thông tin chi tiết về kích thước hộp có thể được tìm thấy trên website hoặc hỏi trực tiếp nhân viên cửa hàng.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "Cửa hàng có chương trình tích điểm cho khách hàng thân thiết không?",
+    "answer": "Cửa hàng có thể có chương trình tích điểm hoặc thẻ thành viên dành cho khách hàng thân thiết. Chi tiết về chương trình này, nếu có, sẽ được công bố trên website và tại cửa hàng.",
+    "metadata": "loyalty"
+  },
+  {
+    "question": "Tôi có thể mua phụ kiện và bộ phận thay thế cho Gundam ở đâu?",
+    "answer": "Cửa hàng cung cấp một số phụ kiện và bộ phận thay thế cho Gundam. Nếu bạn cần tìm kiếm phụ kiện hoặc bộ phận thay thế cụ thể, vui lòng liên hệ bộ phận hỗ trợ khách hàng để được tư vấn và hỗ trợ tìm kiếm.",
+    "metadata": "parts"
+  },
+  {
+    "question": "Các dòng Gundam hot nhất bi giờ là gì?",
+    "answer": "Mấy dòng Gundam đang hot gồm có HG, RG, MG, PG với cả mới đây là EG nữa á. Mỗi dòng khác nhau về độ chi tiết, bự nhỏ, độ khó ráp, hợp với nhiều kiểu người chơi.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "HG, RG, MG, PG Gundam khác nhau chỗ nào?",
+    "answer": "HG (High Grade) là dòng cơ bản, dễ ráp, giá mềm. RG (Real Grade) thì nhỏ mà chi tiết, tỉ lệ chuẩn như thật. MG (Master Grade) chi tiết cao hơn, có khung xương bên trong, bự hơn. PG (Perfect Grade) là trùm cuối, siêu chi tiết, nhiều tính năng, bự nhất.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "Mới chơi Gundam nên quất dòng nào?",
+    "answer": "Mới tập tành thì EG hoặc HG là dễ chơi nhất vì dễ ráp, ít chi tiết rối rắm, giá lại ok nữa. Rành rồi thì mình lên đời RG, MG hay PG sau cũng được.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "Shop có bán đồ nghề ráp Gundam ko ạ?",
+    "answer": "Dạ có nha, shop có đủ đồ nghề cần thiết để ráp Gundam luôn á: kìm cắt, dao, nhíp, bút kẻ line, sơn với mấy món phụ kiện khác. Anh/chị ra khu dụng cụ ở shop hoặc xem trên web là thấy hết.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "Em đặt Gundam online rồi qua shop lấy đc ko?",
+    "answer": "Được luôn ạ, shop có dịch vụ đặt online nhận tại shop nha. Mình đặt trên web hoặc app shop rồi chọn nhận ở shop gần nhà cho đỡ tốn ship ạ.",
+    "metadata": "order_information"
+  },
+  {
+    "question": "Giao hàng tầm mấy ngày tới?",
+    "answer": "Thời gian giao hàng còn tùy địa chỉ với lại hình thức ship mình chọn nữa nha. Nội thành thì cỡ 1-2 ngày làm việc, mấy tỉnh khác thì tầm 3-5 ngày ạ.",
+    "metadata": "shipping"
+  },
+  {
+    "question": "Ship tính tiền sao shop?",
+    "answer": "Tiền ship tính theo cân nặng ĐH, địa chỉ nhận với hình thức ship mình chọn đó ạ. Lúc mình đặt hàng trên web/app là có hiện tiền ship cụ thể luôn nha.",
+    "metadata": "shipping"
+  },
+  {
+    "question": "Shop có KM hay giảm giá j ko?",
+    "answer": "Shop hay có KM, giảm giá đặc biệt mấy dịp lễ, Tết hoặc sự kiện á. Mình follow web, fanpage hoặc đăng ký email để hóng tin KM mới nhất nha.",
+    "metadata": "promotion"
+  },
+  {
+    "question": "Thanh toán bằng hình thức nào đc ạ?",
+    "answer": "Shop nhận nhiều hình thức TT lắm nha: tiền mặt, thẻ ngân hàng, chuyển khoản, ví điện tử với mấy hình thức TT online khác trên web/app luôn.",
+    "metadata": "payment"
+  },
+  {
+    "question": "Đổi trả hàng sao shop?",
+    "answer": "Shop HT đổi trả trong 7 ngày từ ngày nhận hàng nếu SP còn nguyên, chưa xài, bị lỗi do NSX. Mình LH bộ phận CSKH để đc hướng dẫn đổi trả nha.",
+    "metadata": "returns"
+  },
+  {
+    "question": "Ko thích SP có trả đc ko shop?",
+    "answer": "Chính sách đổi trả của shop chủ yếu cho SP lỗi hoặc ko đúng mô tả thôi ạ. Nếu mình ko thích vì lý do cá nhân thì LH CSKH để shop xem xét HT mình tùy trường hợp nha.",
+    "metadata": "returns"
+  },
+  {
+    "question": "Liên hệ CSKH kiểu gì shop?",
+    "answer": "Mình LH CSKH qua hotline, email hoặc chat trực tuyến trên web/app shop nha. Thông tin LH có ở cuối web với trong mục 'Liên hệ' của app á.",
+    "metadata": "contact"
+  },
+  {
+    "question": "Shop có nhận pre-order Gundam mẫu mới ko?",
+    "answer": "Dạ có, shop hay nhận pre-order mấy mẫu Gundam mới ra lắm á. Tin về mẫu pre-order có trên web với fanpage shop nha. Pre-order để chắc chắn có hàng hot liền khi về á.",
+    "metadata": "preorder"
+  },
+  {
+    "question": "Khi nào Gundam hết hàng restock lại shop?",
+    "answer": "Tin restock mấy mẫu Gundam hết hàng thường có trên web với fanpage shop đó ạ. Mình follow mấy kênh này hoặc hỏi trực tiếp CSKH để biết tình trạng restock mẫu mình cần nha.",
+    "metadata": "restock"
+  },
+  {
+    "question": "Shop có workshop hay sự kiện Gundam j ko?",
+    "answer": "Shop có thể có workshop hướng dẫn ráp Gundam, thi độ Gundam hoặc mấy buổi gặp gỡ cộng đồng chơi Gundam á. Tin sự kiện thì shop báo trên web với fanpage nha.",
+    "metadata": "event"
+  },
+  {
+    "question": "Tìm bảng màu, hướng dẫn sơn Gundam ở đâu shop?",
+    "answer": "Mấy thông tin bảng màu, hướng dẫn sơn Gundam mình tìm trên mạng, mấy forum, group chơi Gundam đầy á. Hoặc ra shop hỏi NV cũng đc nha.",
+    "metadata": "assembly"
+  },
+  {
+    "question": "Shop có bán Gundam ráp sẵn ko?",
+    "answer": "Shop chủ yếu bán Gundam dạng kit (mô hình tự ráp) để khách tự trải nghiệm ráp á. Mà thỉnh thoảng shop cũng có mẫu trưng bày ráp sẵn.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "Hộp Gundam các loại to nhỏ khác nhau sao shop?",
+    "answer": "Hộp Gundam to nhỏ khác nhau tùy dòng với mẫu á. HG hộp thường nhỏ gọn, MG với PG thì hộp bự hơn nhiều. Chi tiết KT hộp có trên web hoặc hỏi NV shop nha.",
+    "metadata": "product_info"
+  },
+  {
+    "question": "Shop có tích điểm KH thân thiết ko?",
+    "answer": "Shop có thể có chương trình tích điểm hoặc thẻ thành viên cho KH thân thiết á. Chi tiết chương trình (nếu có) thì shop báo trên web với tại shop nha.",
+    "metadata": "loyalty"
+  },
+  {
+    "question": "Mua phụ kiện, đồ thay thế Gundam ở đâu shop?",
+    "answer": "Shop có bán 1 số phụ kiện, đồ thay thế Gundam á. Nếu mình cần tìm phụ kiện/đồ thay thế cụ thể thì LH CSKH để shop tư vấn, HT tìm nha.",
+    "metadata": "parts"
   }
 ]
-
-

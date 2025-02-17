@@ -2,6 +2,10 @@ import os
 import json
 from typing import List, Dict
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
+load_dotenv()  # Tải biến môi trường từ file .env
+api_key = os.getenv("OPENAI_API_KEY")
 
 class FAQEnricher:
     def __init__(self, model: str = "gpt-4o-mini"):
@@ -27,7 +31,8 @@ Các biến thể cần xem xét:
 - Phong cách chat trực tuyến thông thường
 - Câu hỏi ngắn gọn trực tiếp
 - Cách nói chuyện tự nhiên
-- Khác biệt vùng miền (nếu phù hợp)
+- Khác biệt vùng miền (nếu phù hợp) ở Việt Nam
+- Văn phong dân dã Việt Nam
 
 Trả về JSON theo định dạng sau:
 {{
