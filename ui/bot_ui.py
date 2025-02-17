@@ -6,7 +6,7 @@ import json
 from typing import Dict, List, AsyncGenerator
 import asyncio
 from contextlib import contextmanager
-
+from src.lang.vi import UI_MESSAGES
 
 from dotenv import load_dotenv
 import os
@@ -59,7 +59,7 @@ class ChatBot:
                     "similarity": results[0]["similarity"],
                 }
         except Exception as e:
-            print(f"FAQ error: {str(e)}")
+            print(UI_MESSAGES["faq_error"].format(str(e)))
         return {"found": False}
 
     async def get_streaming_response(self, user_input: str) -> AsyncGenerator[str, None]:
@@ -78,13 +78,13 @@ class ChatBot:
 
         except Exception as e:
             print(f"Response error: {str(e)}")
-            yield "I encountered an error. Please try again."
+            yield UI_MESSAGES["response_error"]
 
     def display_chat(self):
         """Display chat interface"""
         # Chat header
-        st.title("Store Assistant")
-        st.write("Ask about your orders or any questions about our products!")
+        st.title(UI_MESSAGES["chat_title"])
+        st.write(UI_MESSAGES["chat_subtitle"])
 
         # Display chat messages
         for message in st.session_state.messages:
@@ -92,7 +92,7 @@ class ChatBot:
                 st.markdown(message["content"])
 
         # Chat input
-        if prompt := st.chat_input("Type your message here..."):
+        if prompt := st.chat_input(UI_MESSAGES["chat_input_placeholder"]):
             # Add user message to chat
             st.session_state.messages.append({"role": "user", "content": prompt})
             with st.chat_message("user"):
@@ -122,47 +122,23 @@ class ChatBot:
     def display_sidebar(self):
         """Display sidebar with additional information"""
         with st.sidebar:
-            st.title("Help & Information")
-            with st.expander("How to use", expanded=True):
-                st.markdown(
-                    """
-                ### How to use:
-                1. **Check Orders**: 
-                   - Ask about your orders
-                   - Provide your email when asked
-                
-                2. **Cancel Orders**:
-                   - Request to cancel a pending order
-                   - Provide your email and order ID
-                   - Only pending orders can be cancelled
-                
-                3. **FAQ**:
-                   - Ask general questions
-                   - Get instant answers
-                """
-                )
+            st.title(UI_MESSAGES["sidebar_title"])
+            with st.expander(UI_MESSAGES["how_to_use_title"], expanded=True):
+                st.markdown(UI_MESSAGES["how_to_use_content"])
 
-            with st.expander("Example Questions", expanded=True):
-                st.markdown(
-                    """
-                - "Show me my orders for example@email.com"
-                - "Cancel my order #ORD-123"
-                - "What's the status of my order?"
-                - "What's your return policy?"
-                """
-                )
+            with st.expander(UI_MESSAGES["example_questions_title"], expanded=True):
+                st.markdown(UI_MESSAGES["example_questions_content"])
 
             # Clear chat button
-            if st.button("Clear Chat"):
+            if st.button(UI_MESSAGES["clear_chat"]):
                 st.session_state.messages = []
                 st.rerun()
-
 
 def main():
     try:
         # Set page config
         st.set_page_config(
-            page_title="Gundam Store Assistant",
+            page_title=UI_MESSAGES["page_title"],
             page_icon="🤖",
             layout="wide",
             initial_sidebar_state="expanded",
@@ -178,11 +154,10 @@ def main():
         bot.display_chat()
 
     except Exception as e:
-        st.error(f"Application Error: {str(e)}")
-        if st.button("Restart Application"):
+        st.error(UI_MESSAGES["app_error"].format(str(e)))
+        if st.button(UI_MESSAGES["restart_app"]):
             st.session_state.clear()
             st.rerun()
-
 
 if __name__ == "__main__":
     main()

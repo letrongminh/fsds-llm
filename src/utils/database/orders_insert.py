@@ -5,6 +5,7 @@ from psycopg.types.json import Jsonb
 from datetime import datetime, timedelta
 import random
 import uuid
+import os
 
 logger = logging.getLogger(__name__)
 
@@ -194,10 +195,16 @@ class PGOrders:
     def __init__(self):
         self._init_db()
 
+    def _get_connection_string(self):
+        """Get database connection string from environment variables"""
+        host = os.getenv('PGHOST', 'localhost')
+        user = os.getenv('PGUSER', 'postgres')
+        password = os.getenv('PGPASSWORD', 'postgres')
+        database = os.getenv('PGDATABASE', 'postgres')
+        return f"postgresql://{user}:{password}@{host}:5432/{database}"
+
     def _init_db(self):
-        with psycopg.connect(
-            "postgresql://postgres:postgres@localhost:5432/postgres"
-        ) as conn:
+        with psycopg.connect(self._get_connection_string()) as conn:
             with conn.cursor() as cur:
                 cur.execute(
                     """
@@ -232,9 +239,7 @@ class PGOrders:
         VALUES %s
     """
         try:
-            with psycopg.connect(
-                "postgresql://postgres:postgres@localhost:5432/postgres"
-            ) as conn:
+            with psycopg.connect(self._get_connection_string()) as conn:
                 with conn.cursor() as cur:
                     order_data = [order.to_tuple() for order in orders]
                     cur.executemany(

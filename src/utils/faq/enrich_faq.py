@@ -1,9 +1,11 @@
 import os
 import json
+import sys
 from typing import List, Dict
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
+
 load_dotenv()  # Tải biến môi trường từ file .env
 api_key = os.getenv("OPENAI_API_KEY")
 
@@ -83,19 +85,33 @@ Chỉ trả về JSON, không thêm bất kỳ nội dung nào khác."""
 
 
 def main():
-    input_file = input("Enter path FAQ JSON file: ")
-    with open(input_file, "r", encoding="utf-8") as file:
-        input_faq = json.load(file)
+    if len(sys.argv) > 1:
+        input_file = sys.argv[1]
+    else:
+        input_file = "faq.json"  # Default to faq.json if no argument is provided
+    
+    try:
+        with open(input_file, "r", encoding="utf-8") as file:
+            input_faq = json.load(file)
 
-    enricher = FAQEnricher()
-    print(f"Enriching {len(input_faq)} FAQs...")
-    enriched_faq = enricher.enrich_faq(input_faq)
+        enricher = FAQEnricher()
+        print(f"Enriching {len(input_faq)} FAQs...")
+        enriched_faq = enricher.enrich_faq(input_faq)
 
-    output_file = input_file.rsplit(".", 1)[0] + "_enriched.json"
-    with open(output_file, "w", encoding="utf-8") as file:
-        json.dump(enriched_faq, file, indent=2, ensure_ascii=False)
+        output_file = input_file.rsplit(".", 1)[0] + "_enriched.json"
+        with open(output_file, "w", encoding="utf-8") as file:
+            json.dump(enriched_faq, file, indent=2, ensure_ascii=False)
 
-    print(f"Enriched FAQs saved to {output_file}")
+        print(f"Enriched FAQs saved to {output_file}")
+    except FileNotFoundError:
+        print(f"Error: Could not find file '{input_file}'")
+        sys.exit(1)
+    except json.JSONDecodeError:
+        print(f"Error: '{input_file}' is not a valid JSON file")
+        sys.exit(1)
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

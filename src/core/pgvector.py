@@ -2,19 +2,24 @@ import logging
 import psycopg
 from typing import List, Dict, Any, Optional
 import json
-
+import os
 
 logger = logging.getLogger(__name__)
-
 
 class PGVector:
     def __init__(self):
         self._init_db()
 
+    def _get_connection_string(self):
+        """Get database connection string from environment variables"""
+        host = os.getenv('PGHOST', 'localhost')
+        user = os.getenv('PGUSER', 'postgres')
+        password = os.getenv('PGPASSWORD', 'postgres')
+        database = os.getenv('PGDATABASE', 'postgres')
+        return f"postgresql://{user}:{password}@{host}:5432/{database}"
+
     def _init_db(self):
-        with psycopg.connect(
-            "postgresql://postgres:postgres@localhost:5432/postgres"
-        ) as conn:
+        with psycopg.connect(self._get_connection_string()) as conn:
             with conn.cursor() as cur:
                 cur.execute(
                     """
@@ -55,9 +60,7 @@ class PGVector:
         """
 
         doc_ids = []
-        with psycopg.connect(
-            "postgresql://postgres:postgres@localhost:5432/postgres"
-        ) as conn:
+        with psycopg.connect(self._get_connection_string()) as conn:
             with conn.cursor() as cur:
                 for doc in documents:
                     all_questions = doc.get("variations", [])
@@ -86,9 +89,7 @@ class PGVector:
         filter_metadata: Dict = None,
         similarity_threshold: float = 0.8,
     ):
-        with psycopg.connect(
-            "postgresql://postgres:postgres@localhost:5432/postgres"
-        ) as conn:
+        with psycopg.connect(self._get_connection_string()) as conn:
             with conn.cursor() as cur:
                 filter_condition = ""
                 params = [query_embedding]
@@ -130,9 +131,7 @@ class PGVector:
 
     def delete_document(self, doc_id: int) -> bool:
         """Delete a document by its ID"""
-        with psycopg.connect(
-            "postgresql://postgres:postgres@localhost:5432/postgres"
-        ) as conn:
+        with psycopg.connect(self._get_connection_string()) as conn:
             with conn.cursor() as cur:
                 cur.execute("DELETE FROM documents WHERE id = %s", (doc_id,))
                 deleted = cur.rowcount > 0

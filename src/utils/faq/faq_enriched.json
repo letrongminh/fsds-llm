@@ -4,16 +4,22 @@
     "answer": "Kho Voucher trên Ứng dụng Shop là nơi lưu các Voucher/Mã giảm giá bạn được nhận/đã mua trên Shop hoặc các bên đối tác với Shop. Bạn cũng có thể tìm kiếm và lấy thêm các Mã giảm giá tại Kho Voucher",
     "metadata": "cancel",
     "variations": [
-      "Xin hỏi Kho Voucher là gì?",
-      "Làm ơn cho tôi biết Kho Voucher là gì?",
-      "Kho Voucher có nghĩa là gì?",
-      "Kho Voucher trong Ứng dụng Shop là gì vậy?",
-      "Mình muốn hỏi Kho Voucher là gì?",
-      "Cho tôi hỏi, Kho Voucher là gì thế?",
-      "Kho Voucher có công dụng gì?",
-      "Kho Voucher là cái gì?",
-      "Bạn có thể giải thích về Kho Voucher không?",
-      "Kho Voucher trên Shop là gì vậy?"
+      "Xin hỏi, Kho Voucher có nghĩa là gì?",
+      "Làm ơn cho hỏi, Kho Voucher là gì vậy?",
+      "Kho Voucher trên ứng dụng Shop là gì?",
+      "Người ta thường nói về Kho Voucher, vậy đó là cái gì?",
+      "Có thể giải thích cho tôi biết về Kho Voucher không?",
+      "Kho Voucher được hiểu như thế nào?",
+      "Tôi muốn biết Kho Voucher là gì?",
+      "Kho Voucher là nơi gì trên ứng dụng Shop?",
+      "Kho Voucher chứa những gì?",
+      "Kho Voucher có chức năng gì trên Ứng dụng Shop?",
+      "Kho Voucher là gì và nó có tác dụng ra sao?",
+      "Kho Voucher có phải là nơi lưu trữ mã giảm giá không?",
+      "Kho Voucher ở ứng dụng Shop là chỗ nào?",
+      "Cho hỏi, trong ứng dụng Shop có Kho Voucher, nó là gì?",
+      "Mã giảm giá trong Kho Voucher là như thế nào?",
+      "Có ai biết Kho Voucher là gì không?"
     ]
   },
   {
@@ -22,21 +28,21 @@
     "metadata": "mall",
     "variations": [
       "Xin hỏi Mall là gì?",
-      "Làm ơn cho tôi biết Mall là gì?",
       "Mall có nghĩa là gì vậy?",
-      "Mall là những gì trên Shopee?",
-      "Có thể giải thích cho tôi về Mall không?",
-      "Mall là cái gì?",
+      "Làm ơn cho hỏi Mall là gì?",
+      "Bạn có thể giải thích cho tôi về Mall không?",
       "Mall trên Shopee là gì?",
-      "Bạn có thể cho biết Mall là gì không?",
-      "Khái niệm Mall là gì?",
-      "Mô tả về Mall là gì?",
-      "Mall có phải là cửa hàng không?",
-      "Tôi muốn biết Mall là gì trên Shopee.",
-      "Mall là gì nhỉ?",
       "Có ai biết Mall là gì không?",
-      "Mall là thương hiệu hay cửa hàng?",
-      "Mall là hình thức gì trong mua sắm trực tuyến?"
+      "Mọi người cho tôi biết Mall là gì với?",
+      "Mall là những gì trên Shopee?",
+      "Mall là thế nào?",
+      "Cho tôi hỏi Mall có ý nghĩa gì?",
+      "Mall là gì trong hệ thống Shopee?",
+      "Mấy bạn cho mình biết Mall là gì được không?",
+      "Mall có phải là cửa hàng đặc biệt không?",
+      "Có ai giải thích cho mình về Mall được không?",
+      "Trong Shopee, Mall là gì nhỉ?",
+      "Mall có phải là nơi mua hàng chính hãng không?"
     ]
   },
   {
@@ -47,18 +53,15 @@
       "Xin hỏi SPayLater là gì?",
       "Làm ơn cho tôi biết SPayLater là gì?",
       "SPayLater có nghĩa là gì?",
-      "Cho tôi hỏi SPayLater là gì vậy?",
       "SPayLater là phương thức thanh toán như thế nào?",
-      "Bạn có thể giải thích cho tôi về SPayLater không?",
-      "SPayLater là cái gì?",
-      "Mình muốn biết SPayLater là gì?",
-      "SPayLater là một hình thức thanh toán phải không?",
-      "Có ai biết SPayLater là gì không?",
-      "Làm ơn cho tôi hỏi về SPayLater?",
-      "SPayLater được hiểu như thế nào?",
-      "Mình nghe nói về SPayLater, không biết nó là gì?",
-      "SPayLater có phải là phương thức thanh toán mới không?",
-      "Cho mình hỏi một chút về SPayLater nhé?"
+      "Cho tôi hỏi một chút về SPayLater?",
+      "Có thể giải thích cho tôi về SPayLater được không?",
+      "SPayLater là cái gì vậy?",
+      "Mọi người có thể cho tôi biết SPayLater là gì không?",
+      "SPayLater hoạt động ra sao?",
+      "Tôi muốn biết SPayLater là gì?",
+      "SPayLater là gì vậy nhỉ?",
+      "Có ai biết SPayLater là gì không?"
     ]
   },
   {
@@ -66,16 +69,16 @@
     "answer": "Người bán có thể tách đơn hàng của bạn thành nhiều kiện hàng khác nhau (tối đa 5 kiện) vì một số lý do: các sản phẩm trong đơn hàng được vận chuyển từ nhiều kho khác nhau, đơn hàng có quá nhiều sản phẩm hoặc sản phẩm cồng kềnh, không thể vận chuyển trong một lần",
     "metadata": "order_information",
     "variations": [
-      "Xin hỏi, tại sao đơn hàng của tôi lại được chia thành nhiều lần giao?",
-      "Làm ơn cho hỏi, vì sao đơn của tôi lại được giao nhiều lần?",
-      "Tại sao đơn hàng của tôi lại được tách thành nhiều kiện giao khác nhau?",
-      "Đơn hàng của tôi sao lại có nhiều lần giao như vậy?",
-      "Có lý do gì mà đơn hàng của tôi không được giao một lần?",
-      "Tại sao đơn của tôi không được gửi một lần mà lại chia ra nhiều kiện?",
-      "Có thể giải thích cho tôi lý do đơn hàng của tôi bị chia thành nhiều lần giao được không?",
-      "Mình thắc mắc, tại sao đơn hàng của mình lại phải giao thành nhiều lần?",
-      "Có phải đơn hàng của tôi được chia ra vì lý do gì đặc biệt không?",
-      "Đơn hàng của tôi giao nhiều lần là do nguyên nhân gì vậy?"
+      "Xin hỏi vì sao đơn hàng của tôi lại được giao thành nhiều lần?",
+      "Làm ơn cho tôi hỏi lý do nào khiến đơn hàng của tôi bị chia thành nhiều kiện?",
+      "Tại sao đơn hàng của tôi không được giao một lần mà lại chia ra nhiều lần?",
+      "Có lý do gì mà đơn hàng của tôi được tách thành nhiều lần giao không?",
+      "Tại sao tôi lại nhận hàng từ đơn đặt hàng của mình theo nhiều lần giao?",
+      "Có phải vì sản phẩm trong đơn hàng của tôi đến từ nhiều kho khác nhau không?",
+      "Tại sao đơn hàng tôi lại được chia thành nhiều kiện hàng khác nhau?",
+      "Đơn hàng của tôi sao lại giao nhiều lần vậy nhỉ?",
+      "Tại sao lại không thể giao toàn bộ đơn hàng của tôi cùng lúc?",
+      "Có phải hàng trong đơn của tôi bị chia ra vì quá cồng kềnh không?"
     ]
   },
   {
@@ -84,15 +87,15 @@
     "metadata": "product_info",
     "variations": [
       "Xin hỏi, hiện nay có những loại Gundam nào phổ biến?",
-      "Làm ơn cho hỏi, các dòng Gundam thông dụng nhất bây giờ là gì?",
-      "Các loại Gundam được ưa chuộng hiện tại là gì?",
-      "Có những loại Gundam nào đang hot hiện nay?",
-      "Cho mình hỏi, các dòng Gundam phổ biến là gì?",
-      "Bạn có biết những loại Gundam nào nổi bật không?",
-      "Hiện tại, Gundam nào được nhiều người chơi nhất?",
-      "Gundam nào là lựa chọn phổ biến nhất trong thời điểm này?",
-      "Các dòng Gundam nào được yêu thích hiện nay?",
-      "Mình muốn biết các loại Gundam phổ biến nhất hiện tại."
+      "Làm ơn cho hỏi các dòng Gundam phổ biến hiện tại là gì?",
+      "Bạn có thể cho mình biết những loại Gundam phổ biến nhất bây giờ không?",
+      "Gundam nào đang được ưa chuộng nhất hiện nay?",
+      "Các dòng Gundam nổi tiếng hiện tại là gì?",
+      "Có thể liệt kê cho tôi những loại Gundam phổ biến không?",
+      "Mình muốn biết hiện tại có những dòng Gundam nào được nhiều người chơi không?",
+      "Gundam phổ biến nhất hiện nay là những loại nào?",
+      "Cho tôi hỏi, các loại Gundam nào đang thịnh hành hiện nay?",
+      "Các dòng Gundam mà mọi người thường chơi bây giờ là gì?"
     ]
   },
   {
@@ -102,14 +105,14 @@
     "variations": [
       "Xin hỏi sự khác nhau giữa HG, RG, MG và PG Gundam là gì?",
       "Làm ơn cho tôi biết sự khác biệt giữa các dòng HG, RG, MG và PG Gundam?",
+      "Mình muốn hỏi HG, RG, MG và PG Gundam khác nhau như thế nào?",
       "Có ai biết sự khác biệt giữa HG, RG, MG và PG Gundam không?",
-      "HG, RG, MG và PG Gundam khác nhau ở điểm nào?",
-      "Bạn có thể giải thích sự khác biệt giữa HG, RG, MG và PG Gundam được không?",
-      "Tôi muốn biết sự khác nhau giữa các loại Gundam HG, RG, MG và PG.",
-      "Sự phân biệt giữa HG, RG, MG và PG Gundam là gì nhỉ?",
-      "HG, RG, MG và PG Gundam có gì khác nhau?",
-      "Thể loại HG, RG, MG và PG Gundam khác nhau như thế nào?",
-      "Chả nhẽ HG, RG, MG và PG Gundam lại giống nhau sao?"
+      "HG, RG, MG và PG Gundam khác nhau ra sao?",
+      "Sự khác biệt giữa các loại Gundam HG, RG, MG và PG là gì vậy?",
+      "Cho mình hỏi HG, RG, MG và PG Gundam có gì khác biệt?",
+      "Có ai giải thích giúp mình về sự khác nhau giữa HG, RG, MG và PG Gundam không?",
+      "HG, RG, MG và PG Gundam thì cái nào khác cái nào vậy?",
+      "Sự khác nhau giữa các dòng Gundam như HG, RG, MG và PG là gì nhỉ?"
     ]
   },
   {
@@ -117,22 +120,16 @@
     "answer": "Đối với người mới bắt đầu, dòng Entry Grade (EG) hoặc High Grade (HG) là lựa chọn tốt nhất vì chúng dễ lắp ráp, ít chi tiết phức tạp và giá cả phải chăng. Sau khi quen thuộc, bạn có thể thử sức với các dòng cao cấp hơn như RG, MG hoặc PG.",
     "metadata": "product_info",
     "variations": [
-      "Làm ơn cho hỏi, tôi nên bắt đầu chơi Gundam từ dòng nào?",
-      "Xin hỏi, nên chơi Gundam từ dòng nào cho người mới bắt đầu?",
-      "Dòng Gundam nào là tốt nhất cho người mới tập chơi?",
-      "Nên chọn dòng nào để bắt đầu chơi Gundam?",
-      "Mình muốn biết nên bắt đầu chơi Gundam từ dòng nào?",
-      "Cho mình hỏi, bắt đầu với dòng Gundam nào thì phù hợp?",
-      "Người mới thì nên bắt đầu với dòng Gundam nào?",
-      "Nếu tôi mới chơi Gundam thì nên chọn dòng nào?",
-      "Có dòng Gundam nào dễ chơi cho người mới không?",
-      "Bắt đầu chơi Gundam, có dòng nào tốt cho người mới không?",
-      "Nên thử dòng Gundam nào đầu tiên?",
-      "Giới thiệu cho tôi dòng Gundam phù hợp với người mới được không?",
-      "Theo bạn, dòng Gundam nào là lựa chọn tốt cho người mới bắt đầu?",
-      "Mình đang tìm hiểu về Gundam, nên bắt đầu từ dòng nào cho đơn giản?",
-      "Có ai đó có thể tư vấn cho tôi dòng Gundam nào dễ chơi không?",
-      "Mong được chỉ dẫn về dòng Gundam nào nên bắt đầu với người mới?"
+      "Xin hỏi, tôi nên bắt đầu chơi Gundam từ dòng nào?",
+      "Làm ơn cho hỏi, tôi nên chọn dòng Gundam nào để bắt đầu?",
+      "Mới chơi Gundam thì nên bắt đầu từ dòng nào vậy?",
+      "Tôi đang muốn chơi Gundam, nên bắt đầu từ dòng nào thì tốt?",
+      "Bạn có thể tư vấn cho tôi về dòng Gundam nào nên chơi trước không?",
+      "Nếu tôi mới bắt đầu chơi Gundam, dòng nào là phù hợp nhất?",
+      "Chơi Gundam lần đầu thì chọn dòng nào hả bạn?",
+      "Nên bắt đầu với dòng Gundam nào cho người mới?",
+      "Mình muốn hỏi, dòng Gundam nào là lựa chọn tốt cho người mới bắt đầu?",
+      "Mới vào chơi Gundam thì có nên chọn Entry Grade hay High Grade không?"
     ]
   },
   {
@@ -140,16 +137,16 @@
     "answer": "Có, cửa hàng cung cấp đầy đủ các dụng cụ cần thiết cho việc lắp ráp Gundam như kìm cắt, dao rọc, nhíp, bút kẻ line, sơn và các phụ kiện khác. Bạn có thể tìm thấy chúng tại khu vực dụng cụ của cửa hàng hoặc trên website.",
     "metadata": "product_info",
     "variations": [
-      "Xin hỏi cửa hàng có bán dụng cụ lắp ráp Gundam không?",
-      "Làm ơn cho hỏi, có dụng cụ lắp ráp Gundam ở cửa hàng không?",
-      "Cửa hàng có cung cấp dụng cụ cho việc lắp ráp Gundam không?",
-      "Có dụng cụ lắp ráp Gundam nào được bán tại cửa hàng không?",
-      "Dụng cụ lắp ráp Gundam có ở cửa hàng không nhỉ?",
-      "Cửa hàng mình có bán đồ lắp ráp Gundam không?",
-      "Mình muốn hỏi xem cửa hàng có dụng cụ lắp ráp Gundam không?",
-      "Có dụng cụ nào phục vụ cho việc lắp ráp Gundam tại cửa hàng không?",
-      "Cửa hàng có bán phụ kiện lắp ráp Gundam không ạ?",
-      "Dụng cụ lắp ráp Gundam có ở đây không vậy?"
+      "Xin hỏi cửa hàng có bán các dụng cụ lắp ráp Gundam không?",
+      "Làm ơn cho hỏi, ở cửa hàng có dụng cụ để lắp ráp Gundam không?",
+      "Cửa hàng có những dụng cụ nào cho việc lắp ráp Gundam không?",
+      "Có dụng cụ lắp ráp Gundam trong cửa hàng không?",
+      "Mình muốn biết cửa hàng có bán dụng cụ lắp ráp Gundam không?",
+      "Cửa hàng có cung cấp dụng cụ lắp ráp Gundam hay không?",
+      "Cửa hàng có bán đồ nghề lắp ráp Gundam không nhỉ?",
+      "Bạn có thể cho mình biết có dụng cụ lắp ráp Gundam không?",
+      "Chỗ này có dụng cụ để lắp Gundam không?",
+      "Cửa hàng có bán các phụ kiện lắp ráp Gundam không?"
     ]
   },
   {
@@ -157,16 +154,16 @@
     "answer": "Có, cửa hàng hỗ trợ dịch vụ đặt hàng online và nhận tại cửa hàng. Bạn có thể đặt hàng trên website hoặc ứng dụng của cửa hàng và chọn nhận hàng tại cửa hàng gần nhất để tiết kiệm phí vận chuyển.",
     "metadata": "order_information",
     "variations": [
-      "Xin hỏi, tôi có thể đặt hàng Gundam trên mạng và lấy tại cửa hàng được không?",
-      "Làm ơn cho hỏi, có thể đặt Gundam online và nhận hàng tại cửa hàng không?",
-      "Có cách nào để tôi đặt Gundam online rồi nhận tại cửa hàng không?",
-      "Có thể đặt hàng Gundam qua internet và đến cửa hàng nhận không?",
-      "Tôi muốn biết có thể đặt hàng Gundam online và lấy tại cửa hàng được không?",
-      "Có dịch vụ đặt Gundam online và nhận tại cửa hàng không nhỉ?",
-      "Cho tôi hỏi, có thể đặt hàng Gundam trực tuyến và lấy tại cửa hàng không?",
-      "Có thể mua Gundam online rồi đến cửa hàng lấy không?",
-      "Mình có thể đặt Gundam online và đến cửa hàng lấy hàng không?",
-      "Tôi có thể đặt Gundam trên mạng và nhận tại cửa hàng gần nhất không?"
+      "Xin hỏi, tôi có thể đặt hàng Gundam qua mạng và nhận tại cửa hàng được không?",
+      "Làm ơn cho hỏi, có cách nào để tôi đặt hàng Gundam online và đến nhận tại cửa hàng không?",
+      "Có thể đặt hàng Gundam trực tuyến và lấy tại cửa hàng không ạ?",
+      "Mình có thể mua Gundam online và nhận hàng tại cửa hàng không?",
+      "Tôi có thể đặt Gundam trên website và đến lấy tại cửa hàng gần nhất không?",
+      "Cho tôi hỏi, đặt hàng Gundam online có thể lấy tại cửa hàng được không?",
+      "Có dịch vụ nào cho phép đặt Gundam online và nhận tại cửa hàng không?",
+      "Mình muốn hỏi, có thể mua Gundam online và nhận tại cửa hàng không?",
+      "Có thể đặt hàng Gundam trên ứng dụng và nhận tại cửa hàng không?",
+      "Xin cho hỏi, đặt hàng Gundam qua mạng rồi đến cửa hàng lấy có được không?"
     ]
   },
   {
@@ -174,16 +171,16 @@
     "answer": "Thời gian giao hàng trung bình phụ thuộc vào địa chỉ nhận hàng và phương thức vận chuyển bạn chọn. Đối với khu vực nội thành, thời gian giao hàng thường từ 1-2 ngày làm việc. Đối với các khu vực khác, thời gian có thể từ 3-5 ngày làm việc.",
     "metadata": "shipping",
     "variations": [
-      "Xin hỏi, thời gian giao hàng trung bình mất bao lâu?",
-      "Làm ơn cho hỏi, thời gian giao hàng là bao nhiêu?",
-      "Bạn có thể cho tôi biết thời gian giao hàng trung bình không?",
-      "Giao hàng thường mất bao lâu vậy ạ?",
-      "Thời gian giao hàng khoảng bao lâu nhỉ?",
-      "Thời gian giao hàng cho đơn hàng của tôi là bao nhiêu ngày?",
-      "Cho tôi hỏi, delivery time trung bình là bao lâu?",
-      "Giao hàng về nội thành thì mất mấy ngày?",
-      "Cần bao lâu để nhận hàng sau khi đặt?",
-      "Thời gian giao hàng cho khu vực ngoại thành là khoảng bao nhiêu ngày?"
+      "Xin hỏi thời gian giao hàng trung bình là bao nhiêu ngày?",
+      "Làm ơn cho tôi biết thời gian giao hàng thường là bao lâu?",
+      "Giao hàng mất bao lâu thì đến tay tôi?",
+      "Thời gian giao hàng trung bình là khoảng bao nhiêu ngày làm việc?",
+      "Ở khu vực nội thành, giao hàng mất bao lâu?",
+      "Cho hỏi thời gian giao hàng là bao lâu cho địa chỉ của tôi?",
+      "Thời gian để nhận hàng sau khi đặt là bao lâu?",
+      "Giao hàng đến nơi mất thời gian khoảng bao lâu?",
+      "Thời gian giao hàng cho các khu vực khác là bao nhiêu ngày?",
+      "Thời gian giao hàng trung bình mình có thể mong đợi là bao lâu?"
     ]
   },
   {
@@ -191,19 +188,16 @@
     "answer": "Phí vận chuyển được tính dựa trên khối lượng đơn hàng, địa chỉ nhận hàng và phương thức vận chuyển bạn chọn. Bạn có thể xem chi tiết phí vận chuyển khi tiến hành đặt hàng trên website hoặc ứng dụng của cửa hàng.",
     "metadata": "shipping",
     "variations": [
-      "Xin hỏi, phí vận chuyển sẽ được tính ra sao?",
-      "Làm ơn cho hỏi cách tính phí vận chuyển như thế nào?",
-      "Phí ship được tính dựa trên yếu tố gì?",
-      "Có thể cho tôi biết cách tính phí vận chuyển không?",
-      "Phí vận chuyển được xác định bằng cách nào vậy?",
-      "Cho tôi hỏi phí vận chuyển được tính như thế nào nhỉ?",
-      "Phí vận chuyển sẽ được tính theo tiêu chí nào?",
-      "Cách tính phí giao hàng là gì?",
-      "Phí vận chuyển của đơn hàng được tính như thế nào?",
-      "Có ai biết phí vận chuyển được tính thế nào không?",
-      "Phí vận chuyển tính theo khối lượng, đúng không?",
-      "Hỏi chút, phí ship tính như thế nào nhỉ?",
-      "Tính phí vận chuyển dựa trên những yếu tố nào?"
+      "Xin hỏi, phí vận chuyển được tính dựa trên tiêu chí nào?",
+      "Làm ơn cho hỏi, cách tính phí vận chuyển là như thế nào?",
+      "Phí vận chuyển được tính như thế nào vậy?",
+      "Cho tôi hỏi, phí vận chuyển sẽ được xác định ra sao?",
+      "Bạn có thể cho tôi biết cách tính phí vận chuyển không?",
+      "Phí giao hàng được tính theo những yếu tố nào?",
+      "Cho mình hỏi, phí vận chuyển được tính ra sao?",
+      "Có ai biết cách tính phí vận chuyển không?",
+      "Phí ship hàng sẽ được tính như thế nào nhỉ?",
+      "Tính phí vận chuyển dựa trên điều gì vậy?"
     ]
   },
   {
@@ -212,15 +206,15 @@
     "metadata": "promotion",
     "variations": [
       "Xin hỏi cửa hàng có chương trình khuyến mãi nào không?",
-      "Làm ơn cho hỏi, cửa hàng có giảm giá gì không?",
-      "Cửa hàng có đang áp dụng khuyến mãi nào không?",
-      "Có chương trình giảm giá nào tại cửa hàng không?",
-      "Cửa hàng có thường xuyên có khuyến mãi không?",
-      "Mình muốn biết cửa hàng có chương trình ưu đãi nào không?",
-      "Cửa hàng có tổ chức khuyến mãi vào dịp lễ không?",
-      "Có thông tin gì về giảm giá ở cửa hàng không?",
-      "Cửa hàng có đợt khuyến mãi nào sắp tới không?",
-      "Xin cho hỏi, cửa hàng có các chương trình khuyến mãi đặc biệt không?"
+      "Làm ơn cho hỏi có giảm giá gì không ạ?",
+      "Cửa hàng có tổ chức khuyến mãi hay giảm giá không?",
+      "Có đợt khuyến mãi nào đang diễn ra không?",
+      "Cho tôi hỏi cửa hàng có đang có chương trình giảm giá không?",
+      "Cửa hàng có thường xuyên có đợt sale nào không?",
+      "Có thông tin gì về khuyến mãi tại cửa hàng không?",
+      "Mình muốn biết có chương trình giảm giá nào không nhỉ?",
+      "Cửa hàng có chương trình ưu đãi nào không ạ?",
+      "Cửa hàng có đang chạy chương trình khuyến mãi nào không?"
     ]
   },
   {
@@ -228,21 +222,16 @@
     "answer": "Cửa hàng chấp nhận nhiều hình thức thanh toán khác nhau bao gồm tiền mặt, thẻ ngân hàng, chuyển khoản ngân hàng, ví điện tử và các hình thức thanh toán trực tuyến khác được hỗ trợ trên website và ứng dụng.",
     "metadata": "payment",
     "variations": [
-      "Xin hỏi, tôi có thể sử dụng những hình thức thanh toán nào?",
-      "Làm ơn cho hỏi, có những cách nào để tôi thanh toán?",
-      "Có thể cho tôi biết các phương thức thanh toán mà cửa hàng chấp nhận không?",
-      "Cho tôi hỏi, cửa hàng hỗ trợ thanh toán bằng những gì?",
-      "Mình có thể thanh toán qua các hình thức nào nhỉ?",
-      "Tôi muốn biết về các hình thức thanh toán có sẵn.",
-      "Cửa hàng có nhận thanh toán bằng tiền mặt không?",
-      "Có những lựa chọn thanh toán nào cho tôi ở đây?",
-      "Cho hỏi, tôi có thể chuyển khoản ngân hàng để thanh toán được không?",
-      "Tôi có thể dùng ví điện tử để thanh toán không?",
-      "Mình có thể thanh toán online qua website hay app không?",
-      "Ở đây có chấp nhận thẻ ngân hàng không?",
-      "Hỏi nhỏ, có cách nào khác để thanh toán không?",
-      "Mình có thể thanh toán bằng cách nào khi đến cửa hàng?",
-      "Cửa hàng có hỗ trợ các hình thức thanh toán trực tuyến nào không?"
+      "Xin hỏi, tôi có thể thanh toán bằng các hình thức nào?",
+      "Làm ơn cho hỏi, cửa hàng có những phương thức thanh toán nào?",
+      "Ở đây có chấp nhận thanh toán bằng cách nào không?",
+      "Mình có thể sử dụng những hình thức thanh toán nào ở cửa hàng?",
+      "Cho tôi hỏi, có thể thanh toán bằng tiền mặt hay thẻ ngân hàng không?",
+      "Cửa hàng hỗ trợ các hình thức thanh toán gì nhỉ?",
+      "Có những cách nào để thanh toán tại đây?",
+      "Tôi muốn biết các phương thức thanh toán mà cửa hàng chấp nhận.",
+      "Bạn có thể cho tôi biết cách thanh toán ở đây không?",
+      "Cửa hàng có nhận thanh toán qua ví điện tử không?"
     ]
   },
   {
@@ -251,15 +240,15 @@
     "metadata": "returns",
     "variations": [
       "Xin hỏi, cửa hàng có chính sách đổi trả hàng ra sao?",
-      "Làm ơn cho hỏi, quy định về đổi trả hàng của cửa hàng là gì?",
-      "Cửa hàng có hỗ trợ đổi trả hàng không? Nếu có, xin cho biết chi tiết.",
-      "Chính sách đổi trả hàng tại cửa hàng này như thế nào?",
-      "Có thể cho tôi biết về chính sách đổi trả hàng của cửa hàng không?",
-      "Cho hỏi, trong bao lâu thì tôi có thể đổi trả hàng đã mua?",
-      "Hàng hóa mua có thể đổi trả trong thời gian bao lâu?",
-      "Cửa hàng có quy định gì về việc đổi trả sản phẩm không?",
-      "Nếu sản phẩm bị lỗi, tôi có thể đổi trả trong thời gian nào?",
-      "Cửa hàng mình có thời gian đổi trả hàng là mấy ngày vậy?"
+      "Làm ơn cho tôi biết chính sách đổi trả hàng của cửa hàng là gì?",
+      "Cửa hàng có hỗ trợ đổi trả hàng không và điều kiện như thế nào?",
+      "Cho tôi hỏi, thời gian và điều kiện đổi trả hàng ở đây là gì?",
+      "Chính sách đổi trả của các sản phẩm tại cửa hàng như thế nào?",
+      "Tôi muốn biết quy định về đổi trả hàng của cửa hàng, làm ơn cho biết.",
+      "Cửa hàng có thời gian bao lâu để đổi trả hàng?",
+      "Xin vui lòng cho biết tôi có thể đổi trả hàng trong thời gian bao lâu?",
+      "Chính sách đổi trả hàng của cửa hàng mình có gì đặc biệt không?",
+      "Cửa hàng có nhận đổi trả hàng trong vòng bao nhiêu ngày ạ?"
     ]
   },
   {
@@ -267,16 +256,16 @@
     "answer": "Chính sách đổi trả của cửa hàng tập trung vào các sản phẩm bị lỗi hoặc không đúng với mô tả. Trong trường hợp bạn không thích sản phẩm vì lý do cá nhân, vui lòng liên hệ bộ phận hỗ trợ khách hàng để được xem xét và hỗ trợ tùy theo từng trường hợp cụ thể.",
     "metadata": "returns",
     "variations": [
-      "Xin hỏi, tôi có được trả hàng nếu không thích sản phẩm không?",
-      "Làm ơn cho hỏi, nếu tôi không thích sản phẩm thì có thể trả lại được không?",
-      "Nếu tôi không hài lòng với sản phẩm, tôi có thể trả lại không?",
-      "Có cách nào để tôi trả hàng nếu tôi không thích sản phẩm không?",
-      "Tôi muốn hỏi, có thể đổi trả hàng nếu sản phẩm không vừa ý không?",
-      "Nếu không thích hàng, tôi có thể trả lại hay không?",
-      "Tôi có thể đổi trả sản phẩm nếu không thích không?",
-      "Làm ơn cho tôi biết, có thể trả lại hàng nếu không ưng ý không?",
-      "Trong trường hợp không thích sản phẩm, tôi có quyền trả lại hàng không?",
-      "Nếu sản phẩm không như mong muốn, tôi có thể trả lại được không?"
+      "Xin hỏi, tôi có thể đổi trả hàng nếu không thích sản phẩm không?",
+      "Làm ơn cho hỏi, có thể trả lại sản phẩm nếu tôi không thích không?",
+      "Nếu không thích sản phẩm, tôi có thể trả lại hàng được không?",
+      "Cho tôi hỏi, có cách nào để trả hàng nếu tôi không vừa ý với sản phẩm không?",
+      "Tôi muốn hỏi, mình có thể hoàn trả hàng nếu không hài lòng với sản phẩm không?",
+      "Trường hợp không thích sản phẩm, tôi có thể trả lại không?",
+      "Nếu sản phẩm không đúng ý tôi, tôi có thể trả lại hay không?",
+      "Chào bạn, tôi muốn biết có thể trả hàng không nếu không thích sản phẩm?",
+      "Mình có thể gửi trả hàng nếu không thích sản phẩm không?",
+      "Xin cho hỏi, tôi có quyền trả lại sản phẩm nếu không ưng ý không?"
     ]
   },
   {
@@ -284,16 +273,16 @@
     "answer": "Bạn có thể liên hệ với bộ phận hỗ trợ khách hàng qua số điện thoại hotline, email hoặc chat trực tuyến trên website và ứng dụng của cửa hàng. Thông tin liên hệ chi tiết được hiển thị ở cuối trang website và trong mục 'Liên hệ' của ứng dụng.",
     "metadata": "contact",
     "variations": [
-      "Xin hỏi, tôi có thể liên hệ với bộ phận hỗ trợ khách hàng bằng cách nào?",
-      "Làm ơn cho tôi biết cách liên hệ với đội ngũ hỗ trợ khách hàng.",
-      "Có cách nào để tôi liên lạc với bộ phận hỗ trợ khách hàng không?",
-      "Mình muốn hỏi làm thế nào để liên hệ với bộ phận hỗ trợ khách hàng?",
-      "Cho tôi hỏi, liên hệ với bộ phận hỗ trợ khách hàng thì gọi điện hay gửi email là tốt hơn?",
-      "Cách nào để tôi có thể liên hệ với đội ngũ hỗ trợ khách hàng?",
-      "Liệu có thể cho tôi biết thông tin liên hệ với bộ phận hỗ trợ khách hàng không?",
-      "Mình muốn biết số điện thoại hoặc email của bộ phận hỗ trợ khách hàng.",
-      "Làm ơn cho tôi hỏi có thể chat trực tuyến với bộ phận hỗ trợ khách hàng không?",
-      "Cho tôi hỏi, tại sao tôi không thấy thông tin liên hệ với bộ phận hỗ trợ khách hàng trên website?"
+      "Xin hỏi làm thế nào để tôi có thể liên lạc với bộ phận hỗ trợ khách hàng?",
+      "Làm ơn cho hỏi cách để liên hệ với bộ phận hỗ trợ khách hàng là gì?",
+      "Mình liên lạc với bộ phận hỗ trợ khách hàng bằng cách nào?",
+      "Có cách nào để tôi liên hệ với bộ phận hỗ trợ khách hàng không?",
+      "Bạn có thể chỉ cho mình cách liên hệ với bộ phận hỗ trợ khách hàng không?",
+      "Liên hệ với bộ phận hỗ trợ khách hàng thì làm thế nào nhỉ?",
+      "Cho mình hỏi cách nào để gọi cho bộ phận hỗ trợ khách hàng?",
+      "Mình muốn biết liên hệ với bộ phận hỗ trợ khách hàng như thế nào?",
+      "Có thông tin gì về số điện thoại hỗ trợ khách hàng không?",
+      "Làm sao để tìm được thông tin liên hệ với bộ phận hỗ trợ khách hàng?"
     ]
   },
   {
@@ -301,16 +290,16 @@
     "answer": "Có, cửa hàng thường xuyên nhận đặt hàng trước các mẫu Gundam mới ra mắt. Thông tin về các mẫu pre-order sẽ được cập nhật trên website và fanpage của cửa hàng. Việc đặt hàng trước giúp bạn đảm bảo có được mẫu Gundam mong muốn ngay khi hàng về.",
     "metadata": "preorder",
     "variations": [
-      "Xin hỏi cửa hàng có nhận đặt hàng trước cho các mẫu Gundam mới không?",
-      "Làm ơn cho hỏi, cửa hàng có cho phép đặt trước các mẫu Gundam mới ra không?",
-      "Cửa hàng có mở dịch vụ đặt hàng trước các mẫu Gundam mới không?",
-      "Mình muốn biết cửa hàng có nhận đặt hàng trước cho các mẫu Gundam mới không?",
+      "Xin hỏi cửa hàng có nhận đặt hàng trước các mẫu Gundam mới không?",
+      "Làm ơn cho hỏi cửa hàng có nhận đặt hàng trước cho các mẫu Gundam mới ra không?",
+      "Cửa hàng có cho phép đặt hàng trước các mẫu Gundam mới không vậy?",
       "Có thể đặt hàng trước các mẫu Gundam mới tại cửa hàng không?",
-      "Cửa hàng có cho phép mình đặt trước mẫu Gundam mới ra không?",
-      "Có nhận đặt hàng trước cho Gundam mới không ạ?",
-      "Cửa hàng có nhận đơn đặt trước cho những mẫu Gundam mới ra mắt không?",
-      "Cửa hàng có dịch vụ đặt hàng trước cho các mẫu Gundam mới không ạ?",
-      "Làm ơn cho mình hỏi, cửa hàng có nhận đặt hàng trước cho Gundam mới không?"
+      "Cửa hàng mình có nhận đặt hàng trước cho những mẫu Gundam mới không?",
+      "Mình muốn hỏi cửa hàng có dịch vụ đặt hàng trước cho mẫu Gundam mới không?",
+      "Cửa hàng có hỗ trợ đặt hàng trước các mẫu Gundam mới giới thiệu không?",
+      "Cho mình hỏi, cửa hàng có nhận pre-order các mẫu Gundam mới không?",
+      "Liệu có thể đặt hàng trước các mẫu Gundam mới tại cửa hàng không?",
+      "Cửa hàng có mở dịch vụ đặt hàng trước cho mẫu Gundam mới không?"
     ]
   },
   {
@@ -318,16 +307,16 @@
     "answer": "Thông tin về việc restock các mẫu Gundam hết hàng thường được cập nhật trên website và fanpage của cửa hàng. Bạn có thể theo dõi các kênh này hoặc liên hệ trực tiếp bộ phận hỗ trợ khách hàng để hỏi về tình trạng restock của một mẫu cụ thể.",
     "metadata": "restock",
     "variations": [
-      "Xin hỏi, làm thế nào để biết khi nào mẫu Gundam hết hàng sẽ được restock?",
-      "Làm ơn cho hỏi, có cách nào để theo dõi tình trạng restock của mẫu Gundam không?",
-      "Khi nào thì mẫu Gundam đã hết hàng sẽ được hàng lại?",
-      "Mình muốn biết thông tin về việc restock các mẫu Gundam hết hàng, làm thế nào để biết được?",
-      "Có cách nào để kiểm tra khi nào Gundam hết hàng sẽ về nữa không?",
-      "Làm sao để biết mẫu Gundam nào đã hết hàng sẽ được restock lại?",
-      "Tôi có thể làm gì để theo dõi thời gian restock của mẫu Gundam hết hàng?",
-      "Mẫu Gundam mà tôi thích đang hết hàng, làm ơn cho biết khi nào sẽ restock?",
-      "Có thông tin gì về việc restock mẫu Gundam hết hàng không?",
-      "Xin cho biết cách kiểm tra thời gian restock cho Gundam hết hàng nhé!"
+      "Làm ơn cho hỏi khi nào thì mẫu Gundam hết hàng sẽ được restock?",
+      "Xin hỏi làm thế nào để biết thời điểm restock mẫu Gundam đã hết hàng?",
+      "Có cách nào để kiểm tra khi nào mẫu Gundam đã hết hàng sẽ có hàng lại không?",
+      "Mình muốn biết thông tin về việc restock mẫu Gundam hết hàng, làm sao để biết?",
+      "Khi nào thì các mẫu Gundam hết hàng sẽ được nhập lại?",
+      "Cho tôi hỏi, làm thế nào để biết mẫu Gundam hết hàng có được restock không?",
+      "Có ai biết cách theo dõi thời gian restock cho mẫu Gundam hết hàng không?",
+      "Mẫu Gundam đã hết hàng khi nào thì sẽ có hàng trở lại nhỉ?",
+      "Dễ dàng tìm thông tin về việc restock mẫu Gundam hết hàng ở đâu?",
+      "Làm sao để biết mẫu Gundam nào đã hết hàng sẽ được restock?"
     ]
   },
   {
@@ -335,16 +324,16 @@
     "answer": "Cửa hàng có thể tổ chức các workshop hướng dẫn lắp ráp Gundam, cuộc thi độ Gundam hoặc các sự kiện gặp gỡ cộng đồng người chơi Gundam. Thông tin về các sự kiện này sẽ được thông báo trên website và fanpage của cửa hàng.",
     "metadata": "event",
     "variations": [
-      "Xin hỏi cửa hàng có tổ chức các buổi workshop về Gundam không?",
-      "Cửa hàng có tổ chức sự kiện nào liên quan đến Gundam không ạ?",
-      "Làm ơn cho hỏi cửa hàng có kế hoạch tổ chức workshop về Gundam không?",
-      "Cửa hàng có tổ chức các hoạt động liên quan đến Gundam không nhỉ?",
-      "Có sự kiện nào về Gundam ở cửa hàng không vậy?",
-      "Cửa hàng có tổ chức các buổi gặp gỡ hoặc workshop về Gundam không?",
-      "Cho tôi hỏi có sự kiện nào về Gundam tại cửa hàng không?",
-      "Cửa hàng có định tổ chức workshop lắp ráp Gundam không?",
-      "Có sự kiện nào cho cộng đồng Gundam tại cửa hàng không?",
-      "Cửa hàng có tổ chức thi đấu hoặc workshop nào về Gundam không?"
+      "Xin hỏi cửa hàng có tổ chức workshop hay sự kiện nào liên quan đến Gundam không?",
+      "Cửa hàng có tổ chức các buổi workshop hay sự kiện Gundam không ạ?",
+      "Làm ơn cho hỏi, cửa hàng có kế hoạch tổ chức sự kiện hoặc workshop về Gundam không?",
+      "Cửa hàng có tổ chức sự kiện hay hoạt động nào liên quan đến Gundam không?",
+      "Có sự kiện hoặc workshop nào về Gundam tại cửa hàng không?",
+      "Cho mình hỏi là cửa hàng có tổ chức các hoạt động liên quan đến Gundam không?",
+      "Cửa hàng có làm sự kiện hay workshop về Gundam không nhỉ?",
+      "Cửa hàng có tổ chức các buổi gặp gỡ hay workshop Gundam không?",
+      "Cửa hàng có tổ chức cuộc thi hay workshop về Gundam không vậy?",
+      "Làm ơn cho hỏi, có sự kiện Gundam nào diễn ra tại cửa hàng không?"
     ]
   },
   {
@@ -353,15 +342,15 @@
     "metadata": "assembly",
     "variations": [
       "Xin hỏi, tôi có thể tìm bảng màu và hướng dẫn sơn Gundam ở đâu?",
-      "Làm ơn cho hỏi, nơi nào có bảng màu và hướng dẫn sơn Gundam?",
-      "Mình có thể tìm thấy bảng màu và hướng dẫn sơn Gundam ở đâu nhỉ?",
-      "Có ai biết bảng màu và hướng dẫn sơn Gundam ở đâu không?",
-      "Bạn có thể chỉ cho tôi nơi nào có bảng màu và hướng dẫn sơn Gundam không?",
-      "Tìm bảng màu và hướng dẫn sơn Gundam ở đâu thì tiện nhất?",
-      "Tôi muốn biết bảng màu và hướng dẫn sơn Gundam có thể tìm thấy ở đâu?",
-      "Nghe nói có nhiều tài liệu về bảng màu và hướng dẫn sơn Gundam, vậy mình tìm ở đâu?",
-      "Chỗ nào có bảng màu và hướng dẫn sơn Gundam vậy mọi người?",
-      "Ai biết địa chỉ nào cung cấp bảng màu và hướng dẫn sơn Gundam không?"
+      "Làm ơn cho hỏi, nơi nào tôi có thể tìm thấy bảng màu và hướng dẫn sơn Gundam?",
+      "Bạn có biết tôi có thể tìm bảng màu và hướng dẫn sơn Gundam ở đâu không?",
+      "Có ai biết địa chỉ nào để tìm bảng màu và hướng dẫn sơn Gundam không?",
+      "Tìm bảng màu và hướng dẫn sơn Gundam thì ở đâu nhỉ?",
+      "Chỗ nào có bảng màu và hướng dẫn sơn Gundam vậy?",
+      "Mình muốn hỏi, bảng màu và hướng dẫn sơn Gundam có thể tìm ở đâu?",
+      "Ai biết chỉ giúp mình cách tìm bảng màu và hướng dẫn sơn Gundam với?",
+      "Bảng màu và hướng dẫn sơn Gundam có thể tìm thấy trên mạng hay không?",
+      "Tôi muốn tìm hiểu về bảng màu và hướng dẫn sơn Gundam, có ai biết không?"
     ]
   },
   {
@@ -369,16 +358,16 @@
     "answer": "Cửa hàng chủ yếu bán Gundam dạng kit (mô hình chưa lắp ráp) để khách hàng tự trải nghiệm quá trình lắp ráp. Tuy nhiên, trong một số trường hợp đặc biệt, cửa hàng có thể có các mẫu trưng bày đã được lắp ráp sẵn.",
     "metadata": "product_info",
     "variations": [
-      "Xin hỏi cửa hàng có bán Gundam đã được lắp ráp chưa?",
-      "Làm ơn cho hỏi, cửa hàng có mô hình Gundam lắp sẵn không?",
-      "Cửa hàng có Gundam nào đã lắp ráp sẵn không ạ?",
+      "Xin hỏi cửa hàng có bày bán Gundam đã được lắp ráp không?",
+      "Làm ơn cho hỏi, cửa hàng có Gundam lắp ráp sẵn không?",
+      "Cửa hàng có mẫu Gundam nào đã lắp ráp sẵn không?",
+      "Cho mình hỏi, có Gundam nào đã hoàn thành lắp ráp không?",
+      "Cửa hàng có bán Gundam đã hoàn thành không nhỉ?",
+      "Cửa hàng có Gundam lắp ráp sẵn không ạ?",
       "Mình muốn biết cửa hàng có bán Gundam đã lắp ráp không?",
-      "Cửa hàng có mẫu Gundam nào hoàn chỉnh không?",
-      "Có Gundam nào đã lắp sẵn để mua không?",
       "Cửa hàng có trưng bày Gundam đã lắp ráp không?",
-      "Cửa hàng có Gundam lắp ráp sẵn hay không?",
-      "Xin cho hỏi có Gundam nào đã được lắp ráp không?",
-      "Cửa hàng có bán mô hình Gundam hoàn chỉnh không?"
+      "Có Gundam nào ở cửa hàng đã được lắp ráp sẵn không?",
+      "Cửa hàng có cung cấp Gundam đã lắp ráp hay không?"
     ]
   },
   {
@@ -386,17 +375,16 @@
     "answer": "Kích thước hộp Gundam khác nhau tùy thuộc vào dòng và mẫu cụ thể. Các dòng HG thường có hộp nhỏ gọn, trong khi MG và PG có hộp lớn hơn đáng kể. Thông tin chi tiết về kích thước hộp có thể được tìm thấy trên website hoặc hỏi trực tiếp nhân viên cửa hàng.",
     "metadata": "product_info",
     "variations": [
-      "Xin hỏi kích thước của các hộp Gundam có sự khác nhau ra sao?",
-      "Làm ơn cho hỏi kích thước các hộp Gundam khác nhau như thế nào?",
-      "Kích thước hộp Gundam thì khác biệt thế nào giữa các dòng?",
-      "Hộp Gundam có kích thước khác nhau không? Nếu có thì như thế nào?",
-      "Các dòng Gundam có kích thước hộp khác nhau phải không?",
-      "Cho mình hỏi hộp Gundam có kích thước lớn nhỏ thế nào?",
-      "Hộp Gundam có kích thước khác nhau tùy theo dòng đúng không?",
-      "Kích thước của hộp Gundam là bao nhiêu, có phân biệt không?",
-      "Mình muốn biết kích thước các hộp Gundam có khác nhau không?",
-      "Các hộp Gundam thường có kích thước ra sao?",
-      "Kích thước của hộp Gundam khác nhau như thế nào, bạn có biết không?"
+      "Xin hỏi kích thước của các hộp Gundam có sự khác biệt ra sao?",
+      "Làm ơn cho hỏi, hộp Gundam có kích thước như thế nào?",
+      "Kích thước hộp Gundam có khác nhau không?",
+      "Hộp Gundam thì kích thước mỗi loại có gì khác nhau?",
+      "Cho mình hỏi, kích thước các hộp Gundam có được quy định không?",
+      "Mình muốn biết kích thước các hộp Gundam như thế nào?",
+      "Kích thước của hộp Gundam thì tùy thuộc vào dòng nào?",
+      "Hộp Gundam có kích thước lớn nhỏ khác nhau phải không?",
+      "Các loại hộp Gundam thì kích thước có sự khác biệt không?",
+      "Kích thước hộp Gundam là bao nhiêu, có thể cho mình biết không?"
     ]
   },
   {
@@ -405,15 +393,15 @@
     "metadata": "loyalty",
     "variations": [
       "Xin hỏi cửa hàng có chương trình tích điểm cho khách hàng thân thiết không?",
-      "Làm ơn cho hỏi, cửa hàng có thẻ thành viên hay chương trình tích điểm nào không?",
-      "Cửa hàng có áp dụng chương trình tích điểm cho khách hàng thân thiết không vậy?",
-      "Có chương trình tích điểm nào cho khách hàng thân thiết ở cửa hàng không?",
-      "Cửa hàng có chính sách tích điểm cho khách hàng thân thiết không?",
-      "Cho tôi hỏi, cửa hàng có chương trình ưu đãi nào cho khách hàng thân thiết không?",
-      "Mình muốn biết cửa hàng có thẻ thành viên hay chương trình tích điểm gì không?",
-      "Cửa hàng có hỗ trợ tích điểm cho khách hàng thân thiết hay không?",
-      "Chương trình tích điểm cho khách hàng thân thiết có không ạ?",
-      "Cửa hàng có cung cấp thẻ thành viên cho khách hàng hay không?"
+      "Làm ơn cho hỏi, cửa hàng có thẻ thành viên cho khách hàng thân thiết không?",
+      "Cửa hàng có áp dụng chương trình tích điểm cho khách hàng thân thiết hay không?",
+      "Có chương trình tích điểm nào dành cho khách hàng thân thiết không ạ?",
+      "Cửa hàng có cung cấp thẻ tích điểm cho khách hàng thân thiết không?",
+      "Mình muốn biết cửa hàng có chương trình tích điểm cho khách hàng thân thiết không?",
+      "Cửa hàng có tổ chức chương trình tích điểm cho khách hàng trung thành không?",
+      "Có phải cửa hàng có chương trình thành viên cho khách hàng thân thiết không?",
+      "Cho mình hỏi, cửa hàng có chương trình khách hàng thân thiết và tích điểm không?",
+      "Cửa hàng mình có thẻ thành viên cho khách hàng thân thiết không?"
     ]
   },
   {
@@ -421,16 +409,16 @@
     "answer": "Cửa hàng cung cấp một số phụ kiện và bộ phận thay thế cho Gundam. Nếu bạn cần tìm kiếm phụ kiện hoặc bộ phận thay thế cụ thể, vui lòng liên hệ bộ phận hỗ trợ khách hàng để được tư vấn và hỗ trợ tìm kiếm.",
     "metadata": "parts",
     "variations": [
-      "Xin hỏi, tôi có thể tìm phụ kiện và bộ phận thay thế cho Gundam ở đâu?",
-      "Làm ơn cho tôi hỏi, nơi nào bán phụ kiện và bộ phận thay thế Gundam?",
-      "Có chỗ nào bán phụ kiện và bộ phận thay thế cho Gundam không?",
-      "Tìm phụ kiện và bộ phận thay thế Gundam ở đâu được vậy?",
-      "Cho tôi hỏi, tôi có thể mua phụ kiện và bộ phận thay thế Gundam từ đâu?",
-      "Bạn biết chỗ nào bán phụ kiện và bộ phận thay thế cho Gundam không?",
-      "Mình đang cần mua phụ kiện và bộ phận thay thế cho Gundam, có ai biết ở đâu không?",
-      "Mua phụ kiện và bộ phận thay thế Gundam ở đâu nhỉ?",
-      "Phụ kiện và bộ phận thay thế cho Gundam mình tìm ở đâu đây?",
-      "Có ai biết chỗ nào cung cấp phụ kiện và bộ phận thay thế Gundam không?"
+      "Xin hỏi tôi có thể tìm phụ kiện và linh kiện thay thế cho Gundam ở đâu?",
+      "Làm ơn cho hỏi, có những nơi nào bán phụ kiện và bộ phận thay thế cho Gundam?",
+      "Bạn có biết tôi có thể mua phụ kiện Gundam ở đâu không?",
+      "Cho tôi hỏi, tôi có thể tìm bộ phận thay thế cho Gundam ở đâu?",
+      "Có ai biết chỗ nào bán phụ kiện Gundam không?",
+      "Mình cần mua phụ kiện và linh kiện Gundam, không biết ở đâu có nhỉ?",
+      "Địa chỉ nào bán phụ kiện và bộ phận thay thế cho Gundam vậy?",
+      "Bạn có thể chỉ cho tôi nơi mua phụ kiện Gundam được không?",
+      "Có cửa hàng nào cung cấp phụ kiện Gundam mà tôi có thể đến không?",
+      "Mua phụ kiện và bộ phận thay thế cho Gundam thì tìm ở đâu cho dễ?"
     ]
   },
   {
@@ -438,16 +426,16 @@
     "answer": "Mấy dòng Gundam đang hot gồm có HG, RG, MG, PG với cả mới đây là EG nữa á. Mỗi dòng khác nhau về độ chi tiết, bự nhỏ, độ khó ráp, hợp với nhiều kiểu người chơi.",
     "metadata": "product_info",
     "variations": [
-      "Xin hỏi, hiện tại những dòng Gundam nào đang được ưa chuộng?",
-      "Làm ơn cho hỏi, các dòng Gundam hot nhất bây giờ là gì?",
-      "Các dòng Gundam nổi bật hiện nay là gì?",
-      "Mình muốn biết, có những dòng Gundam nào đang hot nhỉ?",
-      "Bạn có thể cho mình biết những dòng Gundam đang thịnh hành không?",
-      "Gundam nào đang hot nhất thời điểm này?",
-      "Những dòng Gundam nào mà người chơi đang yêu thích hiện tại?",
-      "Có ai biết các dòng Gundam hot nhất hiện nay không?",
-      "Hiện tại, các dòng Gundam nào đang được yêu thích nhất?",
-      "Cho tôi hỏi, giờ đây dòng Gundam nào đang được nhiều người chơi nhất?"
+      "Xin hỏi, hiện tại có những dòng Gundam nào đang được ưa chuộng?",
+      "Làm ơn cho hỏi các dòng Gundam hot nhất hiện nay là gì?",
+      "Có thể cho tôi biết những dòng Gundam nổi bật hiện giờ không?",
+      "Mấy dòng Gundam nào đang hot bây giờ vậy?",
+      "Hiện tại, các dòng Gundam nào được yêu thích nhất?",
+      "Cho tôi hỏi, hiện nay dòng Gundam nào đang làm mưa làm gió?",
+      "Các dòng Gundam phổ biến nhất lúc này là gì?",
+      "Bạn có biết các dòng Gundam hot hiện nay không?",
+      "Dòng Gundam nào đang thịnh hành nhất vào thời điểm này?",
+      "Có mấy dòng Gundam đang hot mà mình nên biết không?"
     ]
   },
   {
@@ -456,15 +444,15 @@
     "metadata": "product_info",
     "variations": [
       "Xin hỏi, sự khác biệt giữa HG, RG, MG và PG Gundam là gì?",
-      "Làm ơn cho hỏi HG, RG, MG, PG Gundam có điểm gì khác nhau?",
-      "HG, RG, MG và PG Gundam khác nhau ở điểm nào vậy?",
-      "Cho tôi hỏi, giữa các dòng HG, RG, MG, PG Gundam thì có sự khác biệt gì?",
-      "Mình muốn biết sự khác nhau giữa các loại Gundam như HG, RG, MG và PG?",
-      "Có ai biết HG, RG, MG, PG Gundam khác nhau ra sao không?",
-      "HG, RG, MG và PG Gundam thì có gì khác nhau nhỉ?",
-      "Sự khác biệt giữa các dòng Gundam như HG, RG, MG và PG là gì?",
-      "HG, RG, MG, PG Gundam có đặc điểm khác nhau như thế nào?",
-      "Ai có thể giải thích cho tôi về sự khác nhau giữa HG, RG, MG và PG Gundam?"
+      "Làm ơn cho tôi biết HG, RG, MG, PG Gundam khác nhau như thế nào?",
+      "HG, RG, MG, PG Gundam có điểm gì khác biệt?",
+      "Cho mình hỏi, HG, RG, MG và PG Gundam khác nhau ra sao?",
+      "Có ai biết sự khác nhau giữa các dòng HG, RG, MG, PG Gundam không?",
+      "Thế nào là sự khác biệt giữa HG, RG, MG và PG Gundam?",
+      "Mình muốn tìm hiểu về sự khác nhau giữa các loại Gundam như HG, RG, MG và PG.",
+      "HG, RG, MG, PG Gundam khác nhau ở điểm nào nhỉ?",
+      "Chả nhẽ HG, RG, MG, PG Gundam lại giống nhau sao?",
+      "Mọi người cho mình biết HG, RG, MG, PG Gundam phân biệt thế nào nhé!"
     ]
   },
   {
@@ -472,16 +460,19 @@
     "answer": "Mới tập tành thì EG hoặc HG là dễ chơi nhất vì dễ ráp, ít chi tiết rối rắm, giá lại ok nữa. Rành rồi thì mình lên đời RG, MG hay PG sau cũng được.",
     "metadata": "product_info",
     "variations": [
-      "Xin hỏi, người mới chơi Gundam thì nên chọn dòng nào?",
-      "Làm ơn cho hỏi, với người mới bắt đầu chơi Gundam, dòng nào là hợp lý nhất?",
-      "Mới tập chơi Gundam, mình nên mua dòng nào cho dễ?",
-      "Cho mình hỏi, nếu mới chơi Gundam thì nên bắt đầu với dòng nào?",
-      "Đối với người mới chơi Gundam, dòng nào là dễ chơi nhất?",
-      "Mới tham gia vào thế giới Gundam, mình nên chọn EG hay HG?",
-      "Mình đang tìm hiểu về Gundam, nên chọn dòng nào cho người mới?",
-      "Về Gundam, dòng nào là phù hợp cho người mới như mình?",
-      "Xin chào, tôi mới chơi Gundam, có thể cho tôi biết nên chọn dòng nào không?",
-      "Mới chơi Gundam thì nên bắt đầu với EG hay HG vậy mọi người?"
+      "Xin hỏi, người mới chơi Gundam nên chọn dòng nào?",
+      "Làm ơn cho hỏi, nếu tôi mới bắt đầu chơi Gundam thì nên mua dòng nào?",
+      "Mới chơi Gundam thì nên bắt đầu với dòng nào vậy?",
+      "Cho tôi hỏi, với người mới chơi Gundam thì dòng nào dễ sử dụng nhất?",
+      "Tôi mới chơi Gundam, có nên chọn EG hay HG không?",
+      "Mới vào nghề Gundam, dòng nào là lựa chọn tốt nhất?",
+      "Mới tập chơi Gundam, mình nên chọn dòng nào?",
+      "Mới tìm hiểu về Gundam, không biết nên chọn dòng nào trước?",
+      "Mình mới chơi Gundam, bạn có thể tư vấn dòng nào dễ chơi không?",
+      "Nên chọn dòng Gundam nào cho người mới chơi nhỉ?",
+      "Mới vào chơi Gundam, có nên bắt đầu với EG hay HG không?",
+      "Mới chơi Gundam, nên bắt đầu từ dòng nào cho dễ?",
+      "Mới tìm hiểu về Gundam, dòng nào là lựa chọn thích hợp nhất?"
     ]
   },
   {
@@ -489,16 +480,20 @@
     "answer": "Dạ có nha, shop có đủ đồ nghề cần thiết để ráp Gundam luôn á: kìm cắt, dao, nhíp, bút kẻ line, sơn với mấy món phụ kiện khác. Anh/chị ra khu dụng cụ ở shop hoặc xem trên web là thấy hết.",
     "metadata": "product_info",
     "variations": [
-      "Xin hỏi shop có bán dụng cụ để ráp Gundam không ạ?",
-      "Làm ơn cho hỏi shop có đồ nghề ráp Gundam không ạ?",
-      "Shop có đồ nghề cần thiết để ráp Gundam không ạ?",
-      "Có phải shop có bán kìm cắt và các dụng cụ khác để ráp Gundam không?",
-      "Cho tôi hỏi liệu shop có cung cấp đồ nghề ráp Gundam không?",
-      "Shop mình có bán các dụng cụ ráp Gundam không vậy?",
-      "Mình có thể tìm thấy đồ nghề ráp Gundam ở đâu trong shop?",
-      "Có đồ nghề ráp Gundam nào ở shop không ạ?",
-      "Shop có bán các phụ kiện cần thiết cho việc ráp Gundam không?",
-      "Ở shop có bán dụng cụ để lắp ráp Gundam không vậy?"
+      "Xin hỏi shop có bán đồ nghề để ráp Gundam không ạ?",
+      "Làm ơn cho hỏi, shop có bán dụng cụ ráp Gundam không?",
+      "Shop có đồ nghề ráp Gundam không vậy ạ?",
+      "Có phải shop mình có đủ đồ nghề để ráp Gundam không?",
+      "Mình muốn biết shop có bán dụng cụ ráp Gundam hay không?",
+      "Cho mình hỏi, ở shop có bán đồ nghề cho Gundam không ạ?",
+      "Shop có cung cấp các công cụ để ráp Gundam không vậy?",
+      "Có đồ nghề ráp Gundam tại shop không ạ?",
+      "Mình nghe nói shop có bán đồ nghề Gundam, có đúng không?",
+      "Có món nào cần thiết để ráp Gundam mà shop không có không?",
+      "Ở shop mình có bán kìm, dao và nhíp cho Gundam không?",
+      "Mình tìm đồ nghề ráp Gundam, shop có không ạ?",
+      "Chỗ này có bán đồ nghề ráp Gundam không ạ?",
+      "Đồ nghề ráp Gundam có ở đây không vậy?"
     ]
   },
   {
@@ -506,16 +501,16 @@
     "answer": "Được luôn ạ, shop có dịch vụ đặt online nhận tại shop nha. Mình đặt trên web hoặc app shop rồi chọn nhận ở shop gần nhà cho đỡ tốn ship ạ.",
     "metadata": "order_information",
     "variations": [
-      "Xin hỏi, em có thể đặt Gundam online rồi tới shop lấy không?",
-      "Làm ơn cho hỏi, mình có thể đặt Gundam qua mạng rồi qua cửa hàng lấy luôn không?",
-      "Em có thể đặt Gundam online và đến shop nhận hàng được không?",
-      "Mình có thể mua Gundam online rồi qua cửa hàng lấy trực tiếp phải không?",
-      "Có thể đặt Gundam trên mạng rồi đến shop lấy hàng không vậy?",
-      "Nếu đặt Gundam online thì mình có thể qua cửa hàng lấy hàng không?",
-      "Em muốn biết, đặt Gundam online rồi có qua shop lấy được không ạ?",
-      "Đặt Gundam online có phải qua shop lấy không nhỉ?",
-      "Chị ơi, nếu em đặt Gundam online thì có thể qua shop lấy được không?",
-      "Em mà đặt Gundam trên web thì có thể tới shop lấy liền không?"
+      "Xin hỏi, em có thể đặt Gundam online rồi đến cửa hàng lấy được không?",
+      "Làm ơn cho hỏi, mình có thể mua Gundam qua mạng rồi qua shop lấy không?",
+      "Có cách nào để em đặt Gundam online và lấy tại shop không?",
+      "Em có thể đặt hàng Gundam trên mạng rồi qua cửa hàng nhận không nhỉ?",
+      "Cho em hỏi, đặt Gundam trực tuyến rồi đến shop nhận có được không?",
+      "Có thể đặt Gundam online và lấy trực tiếp tại cửa hàng không?",
+      "Mình có thể mua Gundam online rồi tới shop lấy hàng không?",
+      "Đặt Gundam trên mạng rồi qua shop lấy có được không vậy?",
+      "Em muốn hỏi, nếu đặt Gundam online thì em có thể qua shop lấy được không?",
+      "Có dịch vụ nào cho phép đặt Gundam online rồi nhận tại cửa hàng không?"
     ]
   },
   {
@@ -525,14 +520,17 @@
     "variations": [
       "Xin hỏi, thời gian giao hàng là bao lâu ạ?",
       "Làm ơn cho hỏi, giao hàng mất bao nhiêu ngày?",
-      "Thời gian nhận hàng thường là bao lâu vậy?",
-      "Giao hàng trong bao lâu thì sẽ đến tay tôi?",
-      "Giao hàng tới nơi thì khoảng mấy ngày ạ?",
-      "Cho tôi hỏi, thời gian giao hàng là mấy ngày?",
-      "Mình sẽ nhận hàng sau bao lâu kể từ lúc đặt vậy nhỉ?",
-      "Chờ hàng thì tầm bao nhiêu ngày nhỉ?",
-      "Hàng sẽ được giao trong khoảng thời gian nào?",
-      "Giao hàng ở khu vực này mất bao lâu vậy?"
+      "Giao hàng về nơi tôi ở thường mất bao lâu?",
+      "Thời gian để hàng đến tay mình là bao nhiêu ngày?",
+      "Cho tôi hỏi, hàng sẽ được giao trong bao lâu?",
+      "Giao hàng trong nội thành có nhanh không, khoảng mấy ngày?",
+      "Hàng sẽ tới tay mình sau bao nhiêu ngày làm việc?",
+      "Nếu tôi đặt hàng thì khi nào sẽ nhận được?",
+      "Mất bao lâu để đơn hàng của tôi đến nơi?",
+      "Giao hàng về tỉnh khác thường mất thời gian bao lâu?",
+      "Cho hỏi, thời gian nhận hàng ở khu vực này là bao nhiêu?",
+      "Hàng được giao trong bao nhiêu ngày với địa chỉ này?",
+      "Hàng sẽ đến tay tôi sau bao nhiêu ngày ạ?"
     ]
   },
   {
@@ -541,15 +539,15 @@
     "metadata": "shipping",
     "variations": [
       "Xin hỏi, tiền ship được tính như thế nào ạ?",
-      "Làm ơn cho tôi hỏi cách tính tiền ship của shop?",
-      "Tiền ship sẽ tính ra sao khi đặt hàng?",
-      "Mình muốn biết cách tính phí ship ở shop này?",
-      "Cách tính tiền ship khi mua hàng là gì vậy?",
-      "Cho mình hỏi, phí vận chuyển được tính như thế nào?",
-      "Đặt hàng thì tiền ship có được tính theo cân nặng không?",
-      "Mình cần biết tiền ship tính theo tiêu chí gì?",
-      "Tiền ship được xác định như thế nào khi mình đặt hàng?",
-      "Cho tôi hỏi, phí ship sẽ được tính dựa trên tiêu chí gì?"
+      "Làm ơn cho hỏi, cách tính tiền ship của shop ra sao?",
+      "Tiền vận chuyển sẽ được tính như thế nào khi đặt hàng?",
+      "Shop tính tiền ship dựa trên tiêu chí gì?",
+      "Có thể cho tôi biết cách tính tiền ship được không?",
+      "Mình muốn hỏi về cách tính tiền ship của shop?",
+      "Tiền ship được tính theo tiêu chí nào vậy ạ?",
+      "Cho mình hỏi, tiền ship sẽ được tính như thế nào khi đặt hàng?",
+      "Khi mình đặt hàng, tiền ship được hiển thị như thế nào?",
+      "Tiền vận chuyển của shop tính theo cái gì nhỉ?"
     ]
   },
   {
@@ -558,15 +556,15 @@
     "metadata": "promotion",
     "variations": [
       "Xin hỏi shop có chương trình khuyến mãi nào không?",
-      "Bạn có biết shop có giảm giá gì không?",
-      "Làm ơn cho hỏi, shop có đang có khuyến mãi không?",
-      "Shop có thường xuyên giảm giá hay không?",
-      "Có dịp nào shop có khuyến mãi đặc biệt không?",
-      "Cửa hàng có chương trình giảm giá vào dịp lễ không?",
-      "Mình muốn biết shop có khuyến mãi gì trong thời gian này không?",
-      "Có tin gì về khuyến mãi của shop không?",
-      "Shop có hay tổ chức chương trình giảm giá không nhỉ?",
-      "Bạn có thông tin gì về các đợt khuyến mãi của cửa hàng không?"
+      "Làm ơn cho hỏi có giảm giá gì ở shop không?",
+      "Cửa hàng có đang có chương trình khuyến mãi nào không?",
+      "Shop có thường xuyên giảm giá không?",
+      "Có dịp nào mà shop có khuyến mãi không bạn?",
+      "Mình muốn biết shop có ưu đãi gì không?",
+      "Shop có tổ chức chương trình khuyến mãi vào dịp lễ nào không?",
+      "Mình có thể theo dõi thông tin giảm giá ở đâu?",
+      "Cửa hàng mình có hay có khuyến mãi không?",
+      "Có chương trình giảm giá nào đang diễn ra không?"
     ]
   },
   {
@@ -574,17 +572,16 @@
     "answer": "Shop nhận nhiều hình thức TT lắm nha: tiền mặt, thẻ ngân hàng, chuyển khoản, ví điện tử với mấy hình thức TT online khác trên web/app luôn.",
     "metadata": "payment",
     "variations": [
-      "Xin hỏi, shop chấp nhận những hình thức thanh toán nào ạ?",
-      "Làm ơn cho hỏi, mình có thể thanh toán bằng cách nào tại shop?",
-      "Bạn có thể cho mình biết các phương thức thanh toán được không?",
-      "Có những cách nào để thanh toán tại cửa hàng vậy ạ?",
-      "Shop có nhận thanh toán bằng hình thức nào không ạ?",
-      "Cho tôi hỏi, có thể thanh toán bằng tiền mặt hay thẻ không?",
-      "Mình muốn biết các hình thức thanh toán của shop là gì?",
-      "Hình thức thanh toán nào mà shop hỗ trợ vậy nhỉ?",
-      "Cửa hàng có những tùy chọn thanh toán nào cho khách hàng?",
-      "Hỏi chút, shop có nhận ví điện tử không?",
-      "Mình ở miền Nam, không biết có hình thức thanh toán nào khác không nhỉ?"
+      "Xin hỏi, shop có nhận thanh toán bằng những hình thức nào?",
+      "Làm ơn cho hỏi, có các phương thức thanh toán nào tại shop vậy?",
+      "Mình muốn biết shop nhận thanh toán bằng cách nào?",
+      "Có thể cho mình biết các hình thức thanh toán của shop được không?",
+      "Shop có những cách thanh toán nào cho khách hàng?",
+      "Cho mình hỏi, có thể thanh toán bằng tiền mặt hay thẻ ngân hàng không ạ?",
+      "Mình có thể thanh toán qua ví điện tử hay không?",
+      "Thanh toán ở đây có những lựa chọn nào vậy bạn?",
+      "Shop nhận tiền mặt hay chuyển khoản không ạ?",
+      "Bạn có thể cho mình biết về các hình thức thanh toán không?"
     ]
   },
   {
@@ -592,16 +589,21 @@
     "answer": "Shop HT đổi trả trong 7 ngày từ ngày nhận hàng nếu SP còn nguyên, chưa xài, bị lỗi do NSX. Mình LH bộ phận CSKH để đc hướng dẫn đổi trả nha.",
     "metadata": "returns",
     "variations": [
-      "Xin hỏi quy trình đổi trả hàng của shop như thế nào?",
-      "Làm ơn cho hỏi, shop có chính sách đổi trả hàng ra sao?",
-      "Mình muốn biết cách thức đổi trả hàng từ shop?",
-      "Đổi hàng tại shop diễn ra như thế nào?",
-      "Cho mình hỏi, mình có thể đổi trả sản phẩm trong bao lâu?",
-      "Nếu sản phẩm lỗi, mình có thể đổi trả không?",
-      "Mình muốn hỏi về việc đổi trả hàng, shop có quy định gì không?",
-      "Shop có nhận đổi trả hàng không, và thời gian là bao lâu?",
-      "Thời gian đổi trả hàng tại shop là bao nhiêu ngày?",
-      "Mình có thể liên hệ ai để được hỗ trợ đổi trả hàng?"
+      "Làm ơn cho hỏi quy trình đổi trả hàng ở shop như thế nào?",
+      "Xin hỏi shop có chính sách đổi trả hàng ra sao?",
+      "Mình muốn biết cách đổi trả sản phẩm tại shop?",
+      "Shop cho mình hỏi đổi trả hàng trong bao lâu?",
+      "Mình có thể đổi trả hàng ở shop không?",
+      "Cách thức đổi trả hàng ở shop HT là gì?",
+      "Có thể cho mình biết thời gian đổi trả hàng không?",
+      "Đổi trả hàng ở shop phải làm thế nào?",
+      "Mình muốn đổi một sản phẩm đã mua, có được không?",
+      "Shop ơi, cho mình hỏi đổi trả hàng có mất phí không?",
+      "Nếu sản phẩm bị lỗi, mình có thể đổi trả không?",
+      "Mình cần hướng dẫn đổi trả hàng, có ai hỗ trợ không?",
+      "Đổi trả sản phẩm tại shop thì liên hệ ai?",
+      "Thời gian đổi trả hàng tại shop là bao lâu?",
+      "Shop có nhận đổi trả hàng không ạ?"
     ]
   },
   {
@@ -609,16 +611,16 @@
     "answer": "Chính sách đổi trả của shop chủ yếu cho SP lỗi hoặc ko đúng mô tả thôi ạ. Nếu mình ko thích vì lý do cá nhân thì LH CSKH để shop xem xét HT mình tùy trường hợp nha.",
     "metadata": "returns",
     "variations": [
-      "Xin hỏi shop, nếu mình không thích sản phẩm thì có thể trả lại được không?",
-      "Làm ơn cho hỏi, shop có chính sách nào cho việc trả hàng nếu mình không thích sản phẩm không?",
-      "Nếu không thích sản phẩm thì mình có thể trả lại không ạ?",
-      "Cho mình hỏi, nếu mình không ưng ý với sản phẩm thì có thể đổi trả không?",
-      "Shop ơi, không thích sản phẩm thì mình có trả được không?",
-      "Mình có thể trả lại hàng nếu không thích không ạ?",
-      "Cảm ơn shop, nếu không vừa ý với sản phẩm thì có đổi trả được không?",
-      "Nếu không thích, mình có thể liên hệ để trả sản phẩm không ạ?",
-      "Chào shop, nếu tôi không thích sản phẩm thì có thể trả lại không?",
-      "Tôi muốn hỏi là nếu không thích sản phẩm thì có thể hoàn trả không ạ?"
+      "Xin hỏi, nếu tôi không thích sản phẩm thì có thể trả lại không?",
+      "Làm ơn cho hỏi, shop có chính sách trả hàng nếu tôi không thích sản phẩm không?",
+      "Nếu không thích sản phẩm, tôi có thể trả lại cho shop được không?",
+      "Cho tôi hỏi, có cách nào để trả sản phẩm nếu tôi không ưng ý không?",
+      "Shop ơi, nếu sản phẩm không hợp ý, có được hoàn trả không?",
+      "Mình không thích sản phẩm, có thể trả lại không ạ?",
+      "Có phải chỉ sản phẩm lỗi mới được trả lại không, hay nếu không thích cũng được?",
+      "Nếu sản phẩm không đúng ý mình thì có thể đổi trả không?",
+      "Mình có thể trả lại hàng nếu không thích được không ạ?",
+      "Có cách nào để hoàn trả sản phẩm nếu mình không ưng ý không ạ?"
     ]
   },
   {
@@ -626,21 +628,16 @@
     "answer": "Mình LH CSKH qua hotline, email hoặc chat trực tuyến trên web/app shop nha. Thông tin LH có ở cuối web với trong mục 'Liên hệ' của app á.",
     "metadata": "contact",
     "variations": [
-      "Làm ơn cho hỏi, shop có cách nào để liên hệ với CSKH không?",
-      "Xin hỏi, mình có thể liên hệ CSKH của shop qua những cách nào?",
-      "Shop ơi, mình có thể liên hệ CSKH bằng cách nào vậy?",
-      "Cho mình hỏi cách liên hệ CSKH của shop nhé?",
-      "Có thể cho mình biết cách liên hệ với bộ phận CSKH không?",
-      "Shop có số hotline hay email nào để mình liên hệ CSKH không?",
-      "Liên hệ với CSKH của shop thì làm thế nào nhỉ?",
-      "Mình muốn biết cách liên hệ với CSKH của shop, bạn có thể chỉ giúp mình không?",
-      "Cho mình hỏi, có thể chat trực tuyến với CSKH của shop không?",
-      "Shop có hỗ trợ liên hệ CSKH qua email không?",
-      "Tôi muốn biết các phương thức liên hệ với CSKH của shop.",
-      "Có cách nào để mình liên hệ với bộ phận chăm sóc khách hàng không?",
-      "Liên lạc với CSKH của shop như thế nào vậy?",
-      "Có thông tin gì về việc liên hệ CSKH không ạ?",
-      "Cho tôi hỏi, shop có dịch vụ hỗ trợ khách hàng qua chat không?"
+      "Xin hỏi làm thế nào để liên hệ CSKH của shop?",
+      "Mình có thể liên lạc với CSKH của shop qua những cách nào?",
+      "Làm ơn cho hỏi, shop có những phương thức nào để liên hệ CSKH?",
+      "Có thể cho mình biết cách liên hệ với CSKH không?",
+      "Shop ơi, mình muốn hỏi về cách liên hệ với CSKH thì làm thế nào?",
+      "Cho mình hỏi, shop có hotline hay email để liên hệ CSKH không?",
+      "Mình muốn liên hệ với bộ phận CSKH của shop, làm ơn cho biết cách nhé!",
+      "Cách nào để mình có thể liên lạc với CSKH shop đây?",
+      "Liên hệ CSKH của shop có thể làm qua kênh nào vậy?",
+      "Cho mình hỏi có thể chat trực tuyến để liên hệ CSKH không?"
     ]
   },
   {
@@ -648,21 +645,16 @@
     "answer": "Dạ có, shop hay nhận pre-order mấy mẫu Gundam mới ra lắm á. Tin về mẫu pre-order có trên web với fanpage shop nha. Pre-order để chắc chắn có hàng hot liền khi về á.",
     "metadata": "preorder",
     "variations": [
-      "Xin hỏi shop có nhận đặt trước mẫu Gundam mới không?",
-      "Làm ơn cho hỏi shop có nhận pre-order Gundam mới không?",
-      "Shop có cho đặt hàng trước mẫu Gundam mới không vậy?",
-      "Có thể cho tôi biết shop có nhận pre-order Gundam mới không?",
-      "Mình muốn hỏi shop có nhận đặt trước Gundam mẫu mới hay không?",
-      "Cho mình hỏi có thể pre-order Gundam mới ở shop không?",
-      "Shop có chấp nhận pre-order cho các mẫu Gundam mới không ạ?",
-      "Cửa hàng có nhận đặt trước Gundam mới ra không?",
-      "Có mẫu Gundam mới nào đang nhận pre-order không vậy?",
-      "Shop có cho đặt hàng trước những mẫu Gundam mới không?",
-      "Chị có biết shop có nhận pre-order Gundam mới không?",
-      "Mọi người cho mình hỏi shop có nhận pre-order Gundam mẫu mới không?",
-      "Có ai biết shop có nhận đặt trước Gundam mới không?",
-      "Mình nghe nói shop thường nhận pre-order Gundam mới, có đúng không?",
-      "Có thể đặt trước Gundam mới tại shop không?"
+      "Xin hỏi shop có nhận đặt hàng trước cho mẫu Gundam mới không?",
+      "Làm ơn cho hỏi shop có hỗ trợ pre-order Gundam mới không?",
+      "Shop có cho đặt hàng trước các mẫu Gundam mới không vậy?",
+      "Có phải shop nhận pre-order cho mấy mẫu Gundam mới không?",
+      "Cho tôi hỏi shop có nhận đặt trước Gundam mẫu mới không?",
+      "Shop mình có nhận pre-order cho mẫu Gundam mới không ạ?",
+      "Mẫu Gundam mới có thể đặt hàng trước tại shop không?",
+      "Có thể đặt hàng trước Gundam mới tại shop không nhỉ?",
+      "Thế shop có nhận đặt trước các mẫu Gundam mới không?",
+      "Shop có cho phép pre-order các mẫu Gundam mới hay không?"
     ]
   },
   {
@@ -670,16 +662,16 @@
     "answer": "Tin restock mấy mẫu Gundam hết hàng thường có trên web với fanpage shop đó ạ. Mình follow mấy kênh này hoặc hỏi trực tiếp CSKH để biết tình trạng restock mẫu mình cần nha.",
     "metadata": "restock",
     "variations": [
-      "Xin hỏi, khi nào mẫu Gundam hết hàng sẽ được restock lại tại cửa hàng?",
-      "Làm ơn cho hỏi, shop có thông tin gì về việc restock Gundam không?",
-      "Gundam hết hàng thì bao giờ có hàng lại vậy?",
-      "Có biết khi nào shop sẽ restock các mẫu Gundam không?",
-      "Khi nào thì các mẫu Gundam hết hàng sẽ được bổ sung lại?",
-      "Mình cần biết thời gian restock Gundam, có ai biết không?",
-      "Hỏi chút, shop có thông báo gì về việc restock Gundam hay không?",
-      "Restock Gundam sẽ diễn ra khi nào vậy ạ?",
-      "Cho tôi hỏi, mẫu Gundam nào hết hàng sẽ được restock lại sớm nhất?",
-      "Có tin gì mới về restock Gundam không ạ?"
+      "Xin hỏi khi nào Gundam sẽ được restock lại tại cửa hàng?",
+      "Làm ơn cho hỏi, thời gian restock mẫu Gundam hết hàng là khi nào?",
+      "Gundam hết hàng thì bao giờ có hàng lại vậy shop?",
+      "Mình muốn biết khi nào Gundam sẽ restock lại, có thông tin gì không?",
+      "Cho mình hỏi, có cách nào để biết khi nào Gundam được restock không?",
+      "Khi nào mình có thể mua lại các mẫu Gundam đã hết hàng?",
+      "Mình thắc mắc không biết shop có thông báo gì về việc restock Gundam không?",
+      "Hàng Gundam hết thì khi nào có lại vậy ạ?",
+      "Mong shop cho biết thời gian restock Gundam là khi nào?",
+      "Có thông tin gì về việc restock Gundam không ạ?"
     ]
   },
   {
@@ -687,16 +679,16 @@
     "answer": "Shop có thể có workshop hướng dẫn ráp Gundam, thi độ Gundam hoặc mấy buổi gặp gỡ cộng đồng chơi Gundam á. Tin sự kiện thì shop báo trên web với fanpage nha.",
     "metadata": "event",
     "variations": [
-      "Xin hỏi shop có tổ chức workshop hay sự kiện gì liên quan đến Gundam không?",
-      "Làm ơn cho hỏi có sự kiện hoặc workshop Gundam nào tại shop không?",
-      "Có sự kiện hay workshop về Gundam không ạ?",
-      "Shop có tổ chức các buổi workshop hoặc sự kiện Gundam nào không?",
-      "Cho tôi hỏi shop có kế hoạch tổ chức workshop hay sự kiện Gundam không?",
-      "Có buổi gặp gỡ hay workshop Gundam nào ở shop không?",
-      "Shop có sự kiện hay workshop gì liên quan đến Gundam không vậy?",
-      "Mình muốn biết shop có tổ chức workshop hay sự kiện Gundam gì không?",
-      "Ở shop có tổ chức các hoạt động liên quan đến Gundam không?",
-      "Có buổi workshop hoặc sự kiện Gundam nào diễn ra tại shop không?"
+      "Xin hỏi shop có tổ chức workshop hoặc sự kiện liên quan đến Gundam không?",
+      "Làm ơn cho hỏi có sự kiện hay workshop Gundam nào ở shop không?",
+      "Có workshop hoặc sự kiện Gundam nào tại shop không ạ?",
+      "Shop mình có tổ chức các buổi workshop hay sự kiện Gundam không?",
+      "Cho mình hỏi có sự kiện Gundam nào sắp diễn ra tại shop không?",
+      "Cửa hàng có tổ chức các hoạt động liên quan đến Gundam không vậy?",
+      "Có buổi gặp gỡ cộng đồng Gundam nào tại shop không?",
+      "Cửa hàng có dự định tổ chức workshop Gundam nào không?",
+      "Mình muốn biết shop có sự kiện hay workshop Gundam gì không?",
+      "Có thông tin gì về sự kiện Gundam sắp tới ở shop không?"
     ]
   },
   {
@@ -704,16 +696,16 @@
     "answer": "Mấy thông tin bảng màu, hướng dẫn sơn Gundam mình tìm trên mạng, mấy forum, group chơi Gundam đầy á. Hoặc ra shop hỏi NV cũng đc nha.",
     "metadata": "assembly",
     "variations": [
-      "Xin hỏi, bảng màu và hướng dẫn sơn Gundam có thể tìm ở đâu trong shop?",
-      "Làm ơn cho hỏi, tôi có thể tìm bảng màu và hướng dẫn sơn Gundam ở đâu?",
-      "Bạn biết chỗ nào có bảng màu và hướng dẫn sơn Gundam không?",
-      "Mình không biết tìm bảng màu và hướng dẫn sơn Gundam ở đâu, bạn có thể giúp không?",
-      "Có ai biết bảng màu và cách sơn Gundam tìm ở đâu không?",
-      "Cho mình hỏi bảng màu và hướng dẫn sơn Gundam có ở shop nào không?",
-      "Tìm bảng màu và hướng dẫn sơn Gundam thì tra mạng hay hỏi nhân viên shop thì tốt hơn?",
-      "Bạn có biết là bảng màu và hướng dẫn sơn Gundam có thể tìm ở đâu không?",
-      "Mình muốn tìm bảng màu và cách sơn Gundam, có ai chỉ giúp được không?",
-      "Tìm bảng màu và hướng dẫn sơn Gundam ở đâu thì tiện nhất?"
+      "Xin hỏi, tôi có thể tìm bảng màu và hướng dẫn sơn Gundam ở đâu?",
+      "Làm ơn cho hỏi, bảng màu và hướng dẫn sơn Gundam có thể tìm thấy ở đâu trong shop?",
+      "Có ai biết chỗ nào bán bảng màu và hướng dẫn sơn Gundam không?",
+      "Mọi người cho mình biết địa chỉ nào có bảng màu và hướng dẫn sơn Gundam với?",
+      "Tìm bảng màu và hướng dẫn sơn Gundam ở đâu vậy mọi người?",
+      "Chỗ nào có bảng màu và hướng dẫn sơn Gundam nhỉ?",
+      "Cho mình hỏi, có trang web nào tốt để tìm bảng màu và hướng dẫn sơn Gundam không?",
+      "Mình đang cần bảng màu và hướng dẫn sơn Gundam, ra shop thì hỏi ai?",
+      "Bạn có biết nơi nào cung cấp bảng màu và hướng dẫn sơn Gundam không?",
+      "Mấy bạn ơi, tìm bảng màu và hướng dẫn sơn Gundam ở đâu là hợp lý nhất?"
     ]
   },
   {
@@ -721,16 +713,16 @@
     "answer": "Shop chủ yếu bán Gundam dạng kit (mô hình tự ráp) để khách tự trải nghiệm ráp á. Mà thỉnh thoảng shop cũng có mẫu trưng bày ráp sẵn.",
     "metadata": "product_info",
     "variations": [
-      "Xin hỏi shop có mẫu Gundam nào đã được ráp sẵn không?",
-      "Làm ơn cho hỏi, cửa hàng có bán Gundam đã lắp ráp chưa?",
-      "Cửa hàng có bán Gundam ráp sẵn không vậy?",
-      "Mình muốn biết shop có Gundam nào đã được lắp ráp không?",
-      "Chỗ bạn có Gundam đã ráp sẵn không?",
-      "Có mẫu Gundam nào đã hoàn thành không ạ?",
-      "Shop có cung cấp Gundam lắp sẵn cho khách không?",
-      "Có Gundam nào đã được hoàn thiện không nhỉ?",
-      "Mình có thể tìm Gundam ráp sẵn ở đâu trong shop?",
-      "Chào bạn, bạn có biết shop có mẫu Gundam nào lắp sẵn không?"
+      "Xin hỏi shop có bán Gundam đã được ráp sẵn không?",
+      "Làm ơn cho hỏi, cửa hàng có Gundam ráp sẵn không ạ?",
+      "Cửa hàng có mẫu Gundam nào đã được lắp ráp sẵn không?",
+      "Shop có bán mô hình Gundam hoàn chỉnh không?",
+      "Cho mình hỏi, có Gundam nào ráp sẵn trong shop không?",
+      "Mình muốn biết shop có Gundam đã lắp ráp sẵn không?",
+      "Có mẫu Gundam nào đã được ráp sẵn tại cửa hàng không?",
+      "Shop mình có bán Gundam lắp sẵn không nhỉ?",
+      "Làm ơn cho mình hỏi, mình có thể tìm Gundam ráp sẵn ở đâu trong shop?",
+      "Có Gundam nào đã được hoàn thiện sẵn không ạ?"
     ]
   },
   {
@@ -738,18 +730,16 @@
     "answer": "Hộp Gundam to nhỏ khác nhau tùy dòng với mẫu á. HG hộp thường nhỏ gọn, MG với PG thì hộp bự hơn nhiều. Chi tiết KT hộp có trên web hoặc hỏi NV shop nha.",
     "metadata": "product_info",
     "variations": [
-      "Xin hỏi hộp Gundam có các kích thước nào tại cửa hàng?",
-      "Làm ơn cho tôi hỏi kích thước của hộp Gundam ở shop là như thế nào?",
-      "Hộp Gundam ở shop có to nhỏ khác nhau không?",
-      "Hộp Gundam có kích thước khác nhau không vậy?",
-      "Có thể cho tôi biết hộp Gundam có loại nào lớn, loại nào nhỏ không?",
-      "Hộp Gundam có kích thước ra sao tại cửa hàng?",
-      "Hộp Gundam ở đây có nhiều kích thước không?",
-      "Hãng Gundam có hộp nhỏ và lớn hay không?",
-      "Hộp Gundam to nhỏ khác nhau như thế nào hả shop?",
-      "Có hộp Gundam nào có kích thước khác nhau không?",
-      "Tại cửa hàng có hộp Gundam to nhỏ khác nhau không?",
-      "Cho tôi hỏi kích thước của các hộp Gundam ở shop này nhé!"
+      "Xin hỏi, hộp Gundam có kích cỡ to nhỏ ra sao tại cửa hàng?",
+      "Làm ơn cho tôi hỏi, các loại hộp Gundam có sự khác biệt về kích thước không?",
+      "Hộp Gundam ở shop có những loại nào to nhỏ khác nhau vậy?",
+      "Mình muốn biết hộp Gundam có kích thước khác nhau như thế nào?",
+      "Cho mình hỏi, kích thước hộp Gundam có khác nhau không?",
+      "Hộp Gundam tại cửa hàng có size to nhỏ khác nhau không?",
+      "Hộp Gundam có các kích cỡ khác nhau như thế nào ở shop?",
+      "Hộp Gundam có lớn nhỏ khác nhau không ạ?",
+      "Các loại hộp Gundam có kích cỡ như thế nào vậy shop?",
+      "Hộp Gundam có nhiều kích thước khác nhau không nhỉ?"
     ]
   },
   {
@@ -758,15 +748,15 @@
     "metadata": "loyalty",
     "variations": [
       "Xin hỏi shop có chương trình tích điểm cho khách hàng thân thiết không?",
-      "Làm ơn cho hỏi, shop có tích điểm cho khách hàng thân thiết không?",
-      "Shop có thẻ thành viên hay chương trình tích điểm nào cho khách thân thiết không?",
-      "Cho mình hỏi, có chương trình tích điểm cho khách hàng thân thiết ở shop không?",
-      "Shop có tích điểm cho khách hàng thân thiết hay không?",
-      "Có tích điểm cho khách hàng thân thiết không vậy shop?",
-      "Shop có chương trình nào để tích điểm cho khách thân thiết không?",
-      "Mình muốn biết shop có tích điểm cho khách hàng thân thiết không?",
-      "Shop có thẻ hội viên hay chương trình tích điểm cho khách hàng không nhỉ?",
-      "Có tích điểm cho khách quen không ạ?"
+      "Làm ơn cho hỏi, shop có thẻ tích điểm cho khách hàng thân thiết không ạ?",
+      "Shop có áp dụng chính sách tích điểm cho khách hàng thân thiết không?",
+      "Mình muốn hỏi là shop có chương trình tích điểm cho khách thân thiết không?",
+      "Có phải shop có thẻ thành viên dành cho khách hàng thân thiết không?",
+      "Shop có tích điểm cho khách hàng thân thiết không vậy?",
+      "Cho mình hỏi shop có chương trình thưởng cho khách hàng thân thiết không?",
+      "Có chương trình nào để tích điểm cho khách hàng thân thiết ở shop không?",
+      "Shop mình có tích điểm cho khách hàng lâu năm không nhỉ?",
+      "Khách hàng thân thiết có được tích điểm ở shop không vậy?"
     ]
   },
   {
@@ -774,16 +764,18 @@
     "answer": "Shop có bán 1 số phụ kiện, đồ thay thế Gundam á. Nếu mình cần tìm phụ kiện/đồ thay thế cụ thể thì LH CSKH để shop tư vấn, HT tìm nha.",
     "metadata": "parts",
     "variations": [
-      "Xin hỏi, shop có bán phụ kiện Gundam ở đâu không?",
-      "Làm ơn cho hỏi, tôi có thể tìm phụ kiện Gundam ở đâu?",
-      "Mình muốn biết mua đồ thay thế Gundam ở đâu shop nhỉ?",
-      "Có chỗ nào bán phụ kiện Gundam không ạ?",
-      "Chỗ nào bán đồ thay thế Gundam vậy bạn?",
-      "Shop có những phụ kiện Gundam nào bán không?",
-      "Mình đang tìm phụ kiện Gundam, shop có thể giúp mình không?",
-      "Phụ kiện Gundam có bán ở đâu, xin cho tôi biết với!",
-      "Cho hỏi mua đồ thay thế Gundam thì tìm ở đâu ạ?",
-      "Mình có thể mua phụ kiện Gundam ở đâu tại shop này?"
+      "Xin hỏi, shop có bán phụ kiện và đồ thay thế Gundam không?",
+      "Làm ơn cho hỏi, mình có thể mua phụ kiện Gundam ở đâu shop?",
+      "Mình muốn biết địa chỉ mua phụ kiện Gundam, shop có bán không?",
+      "Shop có các loại phụ kiện và đồ thay thế Gundam không vậy?",
+      "Mua đồ thay thế Gundam ở shop này có được không?",
+      "Có thể cho mình biết nơi nào bán phụ kiện Gundam không?",
+      "Shop có cung cấp phụ kiện Gundam không ạ?",
+      "Mình cần tìm phụ kiện Gundam, shop có hỗ trợ không?",
+      "Cho mình hỏi, shop có bán đồ thay thế Gundam ở đâu?",
+      "Địa chỉ nào để mua phụ kiện Gundam trong shop vậy?",
+      "Shop có đồ thay thế Gundam không, ai biết chỉ mình với!",
+      "Có chỗ nào bán phụ kiện Gundam không, mọi người cho mình biết với!"
     ]
   }
 ]
